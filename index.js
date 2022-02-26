@@ -1,5 +1,5 @@
-const { strict } = require('once');
 const { chromium } = require('playwright');
+const ddw = require('data-world-api')
 
 // process.env.DEBUG='pw:api'
 
@@ -11,9 +11,11 @@ async function checkAllMatches(page, found, word){
     for (const url of found){
         const fileUrls = await checkPageForFiles(page, url)
 
+        const uniqueFiles = [...new Set(fileUrls)]
+
 
         if (fileUrls.length){
-            allUrls = {pageFound: url, files: fileUrls, word}
+            allUrls = {pageFound: url, files: uniqueFiles, word}
         }
         
     }
@@ -106,7 +108,7 @@ async function checkPageForFiles(page, url){
 
 (async function findFiles(url){
     // list of test hospitalURLs
-    const hospitalURLs = ['https://www.mayoclinic.org/', 'https://www.swedish.org/']
+    const hospitalURLs = ['https://www.mayoclinic.org/', 'https://www.swedish.org/', 'http://www.christushealth.org']
 
     // launch browser
     const browser = await chromium.launch({ headless: false, timeout: 20000, args:['--no-sandbox']});
@@ -121,6 +123,9 @@ async function checkPageForFiles(page, url){
             
         //const filtered = textFindings.filter(d => d.files.length)
         console.log(textFindings)
+
+        // to do, save locally all links and relevant information
+        // export to data.world dataset
 
     }
   
