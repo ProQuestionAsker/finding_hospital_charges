@@ -16,12 +16,6 @@ let data = [];
 const hospitalURLs = [ 'http://www.christushealth.org', 'https://www.providence.org/','http://oregon.providence.org/location-directory/p/providence-st-vincent-medical-center/', 
 'https://www.mayoclinic.org/']
 
-// steps:
-// 1. check for text or href matches of the words
-// 2. if they're found, navigate to each page in turn
-// 3. inside each page, check for files.
-// 3a. if there are files inside, log that info
-// 3b. if there aren't files inside, start at step 1 again
 
 async function getDomain(url){
     const match = url.match(`^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)`)
@@ -47,18 +41,6 @@ async function checkDomain(url){
 
     // return a boolean stating whether the url is already in the list and whether it's the domain itself
     return !(alreadyInList && !urlIsDomain)
-
-    // // if it's already in the list and it isn't the parent itself, return null
-    // if (alreadyInList && !urlIsDomain) return null;
-
-    // // otherwise, look for matching text on the page
-    // else {
-
-    //     for (const [index, word] of words.entries()){
-    //         allUrls = await checkForTextandFiles(word).catch(error => console.error(`Error at checkForTextandFiles: ${error}`))
-    //     }
-    //     return allUrls
-    // }
 
 }
 async function checkPageForText(text){
@@ -95,9 +77,6 @@ async function checkForAllFiles(){
 
         
         if (foundFiles.length) {
-
-            // //const el = await page.locator("h3:above(a)", 20).allInnerTexts()//.getAttribute('text')
-            // const el = await page.locator(`h3:near(a[href*=${type}])`).allInnerTexts()//.getAttribute('text')
 
             // add urls to array
             allFoundFiles.push(foundFiles)
@@ -181,7 +160,12 @@ async function checkForDuplicates(a, b){
 }
 
 async function combineData(url){
-    let fileUrls = {originalUrl: url, foundAt: [allFileUrls[0].foundAt], files: allFileUrls[0].files}
+    let fileUrls = allFileUrls.map(d => {
+        return {
+            ...d,
+            originalUrl: url
+        }
+    })
 
     if (allFileUrls.length > 1) {
         const dupes = checkForDuplicates(allFileUrls[0].files, allFileUrls[1].files)
