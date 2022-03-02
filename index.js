@@ -1,7 +1,17 @@
+// import { chromium } from 'playwright';
+// import fs from 'fs';
+// import needle from 'needle';
+// import 'dotenv/config'
 const { chromium } = require('playwright');
 const fs = require('fs');
 const needle = require('needle')
 require('dotenv').config()
+
+//     import fetch from 'node-fetch-polyfill';
+
+//     global.fetch = fetch
+
+// import {csv} from 'd3-fetch'
 
 
 let page;
@@ -14,9 +24,37 @@ let allCheckedUrls = [];
 let data = [];
 let missingData = [];
 
+let hospitalURLs
+
+async function downloadHospitalUrls(){
+
+    const options = {
+        headers: {
+            'authorization': `Bearer ${process.env.DDW_TOKEN}`,
+            'accept': 'application/json'
+        }
+    }
+
+    needle.get('https://api.data.world/v0/queries/07c801a1-9a0a-4cc6-9a72-39bb615472eb/results', options, (err, resp) => {
+        if (err) console.error(err)
+        const flatten = resp.body
+            .map(d => d.searchUrl)
+            .slice(0, 200)
+
+        hospitalURLs = flatten;
+})
+}
+
+// const hospitalURLs = await csv('https://query.data.world/s/k6slilk6qtfrtl3btyefxl4gu7jiyb')
+//     .then((data) => data.map(d => d.searchurl))
+//     .then(flat => flat.slice(0, 10))
+
+
+
+//console.log({hospitalURLs})
+
 // list of test hospitalURLs
-const hospitalURLs = ['http://www.nationaljewish.org/','http://www.nationaljewish.org/', 'https://www.nyp.org/morganstanley', 'https://www.hopkinsmedicine.org/', 'https://www.providence.org/', 'http://www.christushealth.org', 'http://oregon.providence.org/location-directory/p/providence-st-vincent-medical-center/', 
-'https://www.mayoclinic.org/', 'http://www.partners.org/', 'http://www.massgeneral.org/international', 'http://www.unitypoint.org/', 'https://www.nyp.org/morganstanley']
+// const hospitalURLs = [ 'https://www.mayoclinic.org/', 'http://www.partners.org/', 'http://www.massgeneral.org/international', 'http://www.unitypoint.org/', 'https://www.nyp.org/morganstanley']
 
 
 async function getDomain(url){
@@ -106,65 +144,75 @@ async function checkForAllWords(){
 async function checkUrl(url){
 
     try {
+        // make sure url is a string
+        const string = typeof url === 'string' || url instanceof String
 
-        // check if we've already looked at this url
-        const alreadyChecked = allCheckedUrls.includes(url)
+        if (string){
+            // check if we've already looked at this url
+            const alreadyChecked = allCheckedUrls.includes(url)
 
-        // make sure it isn't a mailto url
-        const mail = url.includes('mailto')
+            // make sure it isn't a mailto url
+            const mail = url.includes('mailto')
 
-        // if it hasn't already been checked
-        if (!alreadyChecked && !mail) {
+            // make sure it isn't going to cms.gov
+            const cms = url.includes('cms.gov')
 
-            // add url to list of urls that have been checked
-            allCheckedUrls.push(url)
+            // if it hasn't already been checked
+            if (!alreadyChecked && !mail && !cms) {
 
-            if (url.includes('download')){
-                // if the url triggered a download, add that download to allFiles and don't go to page
-                const [download] = await Promise.all([
-                    page.waitForEvent('download'),
-                    page.locator(`a[href="${url}"]`).click()
-                ])
-                download.delete()
-                const downloadUrl = download.url()
-                allFileUrls.push({foundAt: url, files: [downloadUrl]})
+                // add url to list of urls that have been checked
+                allCheckedUrls.push(url)
 
-            } else {
-                // if the url doesn't appear to trigger a download, navigate to it
-                // go to page
-                await page.goto(url, {waitUntil: 'domcontentloaded'})
+                if (url.includes('download')){
+                    // if the url triggered a download, add that download to allFiles and don't go to page
+                    const [download] = await Promise.all([
+                        page.waitForEvent('download'),
+                        page.locator(`a[href="${url}"]`).click()
+                    ])
+                    download.delete()
+                    const downloadUrl = download.url()
+                    allFileUrls.push({foundAt: url, files: [downloadUrl]})
 
-                // checks page for word matches in a text or href
-                const foundWords = await checkForAllWords();
+                } else {
+                    // if the url doesn't appear to trigger a download, navigate to it
+                    // go to page
+                    await page.goto(url, {waitUntil: 'domcontentloaded'})
 
-                // check page for files of the type we're looking for
-                const foundFiles = await checkForAllFiles();
+                    // checks page for word matches in a text or href
+                    const foundWords = await checkForAllWords()
+                        .catch(err => `Error finding words ${err}`)
 
-                if (foundWords.length && !foundFiles.length && !allFileUrls.length){
-                    // if word match links were found but no files, run it again
-                    for await (const foundWordUrl of foundWords){
-                        if (foundWordUrl != url) await checkUrl(foundWordUrl);
+                    // check page for files of the type we're looking for
+                    const foundFiles = await checkForAllFiles()
+                        .catch(err => `Error finding files ${err}`)
+
+                    if (foundWords.length && !foundFiles.length && !allFileUrls.length){
+                        // if word match links were found but no files, run it again
+                        for await (const foundWordUrl of foundWords){
+                            if (foundWordUrl != url) await checkUrl(foundWordUrl);
+                        }
                     }
-                }
 
-                else if (foundFiles.length){
-                    const flatFileFindings = foundFiles.flat().flat();
+                    else if (foundFiles.length){
+                        const flatFileFindings = foundFiles.flat().flat();
 
-                    const uniqueFindings = [...new Set(flatFileFindings)]
+                        const uniqueFindings = [...new Set(flatFileFindings)]
 
-                    // if files were found, add them to our empty array
-                    allFileUrls.push({foundAt: url, files: flatFileFindings})
+                        // if files were found, add them to our empty array
+                        allFileUrls.push({foundAt: url, files: flatFileFindings})
+                    }
+
                 }
 
             }
-
         }
+
 
         return 'success'
     }
 
     catch(error){
-		console.error(`Error making checking url: ${error}`)
+		console.error(`Error checking url: ${error}`)
 		return `oops, ${url} failed`
 	}
     
@@ -242,8 +290,11 @@ async function writeData(str, filename, path){
     
 (async function findFiles(){
 
+    // download hospital urls from ddw
+    await downloadHospitalUrls()
+
     // launch browser
-    const browser = await chromium.launch({ headless: false, timeout: 20000, args:['--no-sandbox']});
+    const browser = await chromium.launch({ headless: true, timeout: 20000, args:['--no-sandbox']});
 
     // launch browser context
     const context = await browser.newContext();
@@ -258,6 +309,7 @@ async function writeData(str, filename, path){
 
         // find if url is unique after redirect
         const unique = await checkDomain(url)
+            .catch(err => `Something wrong with checking domain ${err}`)
 
         if (unique){
 
@@ -276,6 +328,16 @@ async function writeData(str, filename, path){
                 console.log(`Missing ${index}/${hospitalURLs.length - 1}`)
             }
 
+            // push updates to ddw every 50 urls checked in case something crashes
+            if (index % 50 === 0 && index !== 0){
+                const allStr = JSON.stringify(data)
+                await writeData(allStr, 'links.json', 'data/links.json');
+
+                const missingStr = JSON.stringify(missingData)
+                await writeData(missingStr, 'missingLinks.json', 'data/missingLinks.json')
+                console.log('backed up data to ddw')
+            }
+
             if (index === hospitalURLs.length - 1) {
                 await context.close()
                 await browser.close()
@@ -289,10 +351,6 @@ async function writeData(str, filename, path){
     
         }
 
-
-
-        // TODO
-        // export to data.world dataset
 
     }
     console.log('for loop finished!')

@@ -17,6 +17,22 @@ const form = new FormData()
 form.append('file', file)
 
 
+async function downloadHospitalUrls(){
+
+    const options = {
+        headers: {
+            'authorization': `Bearer ${process.env.DDW_TOKEN}`,
+            'accept': 'application/json'
+        }
+    }
+
+    needle.get('https://api.data.world/v0/queries/07c801a1-9a0a-4cc6-9a72-39bb615472eb/results', options, (err, resp) => {
+        if (err) console.error(err)
+    console.log(resp.body)
+})
+}
+
+downloadHospitalUrls()
 
 const ctype = form.getHeaders()['content-type']
 
@@ -48,7 +64,7 @@ function uploadFile(){
 
 }
 
-uploadFile()
+// uploadFile()
 
 
 // const form = new formData()

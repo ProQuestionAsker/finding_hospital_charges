@@ -12,6 +12,7 @@
     "buffer-crc32": "^0.2.13",
     "commander": "^8.3.0",
     "concat-map": "^0.0.1",
+    "d3-fetch": "^3.0.1",
     "debug": "^4.3.3",
     "dotenv": "^16.0.0",
     "end-of-stream": "^1.4.4",
