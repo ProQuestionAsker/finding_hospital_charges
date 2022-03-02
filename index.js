@@ -15,7 +15,7 @@ let data = [];
 let missingData = [];
 
 // list of test hospitalURLs
-const hospitalURLs = [ 'https://www.nyp.org/morganstanley', 'https://www.hopkinsmedicine.org/', 'https://www.providence.org/', 'http://www.christushealth.org', 'http://oregon.providence.org/location-directory/p/providence-st-vincent-medical-center/', 
+const hospitalURLs = ['http://www.nationaljewish.org/','http://www.nationaljewish.org/', 'https://www.nyp.org/morganstanley', 'https://www.hopkinsmedicine.org/', 'https://www.providence.org/', 'http://www.christushealth.org', 'http://oregon.providence.org/location-directory/p/providence-st-vincent-medical-center/', 
 'https://www.mayoclinic.org/', 'http://www.partners.org/', 'http://www.massgeneral.org/international', 'http://www.unitypoint.org/', 'https://www.nyp.org/morganstanley']
 
 
@@ -104,7 +104,6 @@ async function checkForAllWords(){
 }
 
 async function checkUrl(url){
-    console.log({url})
 
     try {
 
@@ -129,8 +128,6 @@ async function checkUrl(url){
                 download.delete()
                 const downloadUrl = download.url()
                 allFileUrls.push({foundAt: url, files: [downloadUrl]})
-                console.log({allFileUrls})
-
 
             } else {
                 // if the url doesn't appear to trigger a download, navigate to it
@@ -142,8 +139,6 @@ async function checkUrl(url){
 
                 // check page for files of the type we're looking for
                 const foundFiles = await checkForAllFiles();
-
-                //console.log({url, foundWords, foundFiles})
 
                 if (foundWords.length && !foundFiles.length && !allFileUrls.length){
                     // if word match links were found but no files, run it again
@@ -274,7 +269,7 @@ async function writeData(str, filename, path){
                 await combineData(url)
                 console.log(`Found ${index}/${hospitalURLs.length - 1}`)
 
-            } else {
+            } else if (textFindings === 'success' && !allFileUrls.length) {
                 // if the script has finished looking but found nothing
                 // add the url to our list of sites with missing information
                 missingData.push({originalUrl: url})
@@ -282,7 +277,6 @@ async function writeData(str, filename, path){
             }
 
             if (index === hospitalURLs.length - 1) {
-                console.log('last one!')
                 await context.close()
                 await browser.close()
                 const allStr = JSON.stringify(data)
@@ -302,7 +296,6 @@ async function writeData(str, filename, path){
 
     }
     console.log('for loop finished!')
-    console.log(data)
   
 
 })().catch(error => console.error(`Error going to site: ${error}`))
