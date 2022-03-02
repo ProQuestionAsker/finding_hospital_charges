@@ -12,12 +12,14 @@
     "buffer-crc32": "^0.2.13",
     "commander": "^8.3.0",
     "concat-map": "^0.0.1",
-    "data-world-api": "file:../../dwApiNode",
     "debug": "^4.3.3",
+    "dotenv": "^16.0.0",
     "end-of-stream": "^1.4.4",
     "escape-string-regexp": "^2.0.0",
+    "express": "^4.17.3",
     "extract-zip": "^2.0.1",
     "fd-slicer": "^1.1.0",
+    "form-data": "^4.0.0",
     "fs.realpath": "^1.0.0",
     "get-stream": "^5.2.0",
     "glob": "^7.2.0",
@@ -30,6 +32,7 @@
     "mime": "^3.0.0",
     "minimatch": "^3.1.2",
     "ms": "^2.1.2",
+    "needle": "^3.0.0",
     "once": "^1.4.0",
     "path-is-absolute": "^1.0.1",
     "pend": "^1.2.0",
@@ -53,7 +56,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "ddw": "node ddw.js"
   },
   "author": "Amber Thomas",
   "license": "ISC",

@@ -1,5 +1,4 @@
 const { chromium } = require('playwright');
-const ddw = require('data-world-api');
 const fs = require('fs');
 
 
@@ -13,7 +12,7 @@ let allCheckedUrls = [];
 let data = [];
 
 // list of test hospitalURLs
-const hospitalURLs = [ 'http://www.christushealth.org', 'https://www.providence.org/','http://oregon.providence.org/location-directory/p/providence-st-vincent-medical-center/', 
+const hospitalURLs = [ 'https://www.providence.org/', 'http://www.christushealth.org', 'http://oregon.providence.org/location-directory/p/providence-st-vincent-medical-center/', 
 'https://www.mayoclinic.org/']
 
 
@@ -187,6 +186,21 @@ async function writeData(str){
     })
 }
 
+async function searchPage(){
+    // type price transparency into search bar
+    await page.fill('input:has-text(`Search`)', 'price transparency')
+    await page.press('input:has-text(`Search`)', 'Enter')
+
+    // checks page for word matches in a text or href
+    const foundWords = await checkForAllWords();
+
+    for (const url of foundWords){
+        await checkUrl(url)
+    }
+
+
+}
+
 
 
 
@@ -212,26 +226,33 @@ async function writeData(str){
 
         // find if url is unique after redirect
         const unique = await checkDomain(url)
-        console.log({unique, url})
 
         if (unique){
 
             const textFindings = await checkUrl(url)
- 
-            console.log(allFileUrls, index, hospitalURLs.length)
 
-            if (textFindings === 'success' && allFileUrls.length){
-                await combineData(url)
+            if (textFindings === 'success' && !allFileUrls.length){
+                // last ditch effort if no files have been found so far; 
+                // find a search bar of some kind, type in "price transparency, enter, and run the process again on the results"
+                const searchFindings = await searchPage()
             }
 
-            if (index === hospitalURLs.length - 1) {
-                console.log('last one!')
-                await context.close()
-                await browser.close()
-                const allStr = JSON.stringify(data)
-                await writeData(allStr);
+            // if (textFindings === 'success' && allFileUrls.length){
+
+            //     await combineData(url)
+
+            // } else {
+            //     // last ditch effort, find a search bar of some kind, type in "price transparency, enter, and run the process again on the results"
+            // }
+
+            // if (index === hospitalURLs.length - 1) {
+            //     console.log('last one!')
+            //     await context.close()
+            //     await browser.close()
+            //     const allStr = JSON.stringify(data)
+            //     await writeData(allStr);
     
-            }
+            // }
     
 
         }
