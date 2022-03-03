@@ -1,28 +1,22 @@
-// import { chromium } from 'playwright';
-// import fs from 'fs';
-// import needle from 'needle';
-// import 'dotenv/config'
 const { chromium } = require('playwright');
 const fs = require('fs');
 const needle = require('needle')
 require('dotenv').config()
 
-//     import fetch from 'node-fetch-polyfill';
-
-//     global.fetch = fetch
-
-// import {csv} from 'd3-fetch'
-
 
 let page;
 
-const words = ['pric', 'insurance', 'cms', 'estimat', 'charg', 'pay']
+const words = ['pric', 'cms', 'estimat', 'charg', 'pay', 'machine read', 'financ']
 const fileTypes = ['xls', 'csv', 'json', 'ashx', 'txt', 'zip']
 
 let allFileUrls = [];
 let allCheckedUrls = [];
+let thisCheckedUrls = 0;
 let data = [];
 let missingData = [];
+let MAX_TO_CHECK = 50
+let bestGuesses = [];
+let SLICE_NUMBER = 300;
 
 let hospitalURLs
 
@@ -39,19 +33,12 @@ async function downloadHospitalUrls(){
         if (err) console.error(err)
         const flatten = resp.body
             .map(d => d.searchUrl)
-            .slice(0, 200)
+            .slice(0, SLICE_NUMBER)
 
         hospitalURLs = flatten;
 })
 }
 
-// const hospitalURLs = await csv('https://query.data.world/s/k6slilk6qtfrtl3btyefxl4gu7jiyb')
-//     .then((data) => data.map(d => d.searchurl))
-//     .then(flat => flat.slice(0, 10))
-
-
-
-//console.log({hospitalURLs})
 
 // list of test hospitalURLs
 // const hospitalURLs = [ 'https://www.mayoclinic.org/', 'http://www.partners.org/', 'http://www.massgeneral.org/international', 'http://www.unitypoint.org/', 'https://www.nyp.org/morganstanley']
@@ -65,7 +52,7 @@ async function getDomain(url){
 async function checkDomain(url){
 
     // navigate to page
-    await page.goto(url, {waitUntil: 'domcontentloaded'})
+    await page.goto(url, {timeout: 7000, waitUntil: 'domcontentloaded'})
 
     // check to see if URL redirected
     const redirectedUrl = await page.url()
@@ -134,6 +121,8 @@ async function checkForAllWords(){
         const foundWords = await checkPageForText(word)
 
         if (foundWords.length) allFoundWords.push(foundWords)
+        if (word === 'pric' && foundWords.length) bestGuesses.push(foundWords)
+      
     }
     const flattened = allFoundWords.flat();
 
@@ -144,6 +133,11 @@ async function checkForAllWords(){
 async function checkUrl(url){
 
     try {
+
+
+        // increment checked urls for this hospital by 1
+        thisCheckedUrls += 1
+
         // make sure url is a string
         const string = typeof url === 'string' || url instanceof String
 
@@ -154,11 +148,14 @@ async function checkUrl(url){
             // make sure it isn't a mailto url
             const mail = url.includes('mailto')
 
-            // make sure it isn't going to cms.gov
-            const cms = url.includes('cms.gov')
+            // make sure it isn't going to a .gov site
+            const cms = url.includes('.gov')
+
+            // make sure it doesn't go off to paypal
+            const paypal = url.includes('paypal')
 
             // if it hasn't already been checked
-            if (!alreadyChecked && !mail && !cms) {
+            if (!alreadyChecked && !mail && !cms && !paypal) {
 
                 // add url to list of urls that have been checked
                 allCheckedUrls.push(url)
@@ -176,7 +173,7 @@ async function checkUrl(url){
                 } else {
                     // if the url doesn't appear to trigger a download, navigate to it
                     // go to page
-                    await page.goto(url, {waitUntil: 'domcontentloaded'})
+                    await page.goto(url, {timeout: 7000, waitUntil: 'domcontentloaded'})
 
                     // checks page for word matches in a text or href
                     const foundWords = await checkForAllWords()
@@ -186,7 +183,7 @@ async function checkUrl(url){
                     const foundFiles = await checkForAllFiles()
                         .catch(err => `Error finding files ${err}`)
 
-                    if (foundWords.length && !foundFiles.length && !allFileUrls.length){
+                    if (foundWords.length && !foundFiles.length && !allFileUrls.length && thisCheckedUrls < MAX_TO_CHECK){
                         // if word match links were found but no files, run it again
                         for await (const foundWordUrl of foundWords){
                             if (foundWordUrl != url) await checkUrl(foundWordUrl);
@@ -288,13 +285,14 @@ async function writeData(str, filename, path){
 
 
     
-(async function findFiles(){
+(async function findFiles(){ 
+    console.time('finding hospitals')
 
     // download hospital urls from ddw
     await downloadHospitalUrls()
 
     // launch browser
-    const browser = await chromium.launch({ headless: true, timeout: 20000, args:['--no-sandbox']});
+    const browser = await chromium.launch({ headless: false, timeout: 2000, args:['--no-sandbox']});
 
     // launch browser context
     const context = await browser.newContext();
@@ -302,58 +300,66 @@ async function writeData(str, filename, path){
     // launch a new page and save to global variable page
     page = await context.newPage();
 
-    for await (const [index, url] of hospitalURLs.entries()){
+    if (hospitalURLs){
+        for await (const [index, url] of hospitalURLs.entries()){
         
-        // reset to blank
-        allFileUrls = [];
-
-        // find if url is unique after redirect
-        const unique = await checkDomain(url)
-            .catch(err => `Something wrong with checking domain ${err}`)
-
-        if (unique){
-
-            const textFindings = await checkUrl(url)
-
-
-            if (textFindings === 'success' && allFileUrls.length){
-
-                await combineData(url)
-                console.log(`Found ${index}/${hospitalURLs.length - 1}`)
-
-            } else if (textFindings === 'success' && !allFileUrls.length) {
-                // if the script has finished looking but found nothing
-                // add the url to our list of sites with missing information
-                missingData.push({originalUrl: url})
-                console.log(`Missing ${index}/${hospitalURLs.length - 1}`)
-            }
-
-            // push updates to ddw every 50 urls checked in case something crashes
-            if (index % 50 === 0 && index !== 0){
-                const allStr = JSON.stringify(data)
-                await writeData(allStr, 'links.json', 'data/links.json');
-
-                const missingStr = JSON.stringify(missingData)
-                await writeData(missingStr, 'missingLinks.json', 'data/missingLinks.json')
-                console.log('backed up data to ddw')
-            }
-
-            if (index === hospitalURLs.length - 1) {
-                await context.close()
-                await browser.close()
-                const allStr = JSON.stringify(data)
-                await writeData(allStr, 'links.json', 'data/links.json');
-
-                const missingStr = JSON.stringify(missingData)
-                await writeData(missingStr, 'missingLinks.json', 'data/missingLinks.json')
+            // reset to blank
+            allFileUrls = [];
+            thisCheckedUrls = 0
+            bestGuesses = [];
     
+            // find if url is unique after redirect
+            const unique = await checkDomain(url)
+                .catch(err => `Something wrong with checking domain ${err}`)
+    
+            if (unique){
+    
+                const textFindings = await checkUrl(url)
+    
+    
+                if (textFindings === 'success' && allFileUrls.length){
+    
+                    await combineData(url)
+                    console.log(`Found ${index}/${hospitalURLs.length - 1}`)
+    
+                } else if (textFindings === 'success' && !allFileUrls.length) {
+                    // if the script has finished looking but found nothing
+                    // add the url to our list of sites with missing information
+                    missingData.push({originalUrl: url, bestGuesses})
+                    console.log(`Missing ${index}/${hospitalURLs.length - 1}`)
+                }
+    
+                // push updates to ddw every 50 urls checked in case something crashes
+                if (index % 50 === 0 && index !== 0){
+                    const allStr = JSON.stringify(data)
+                    await writeData(allStr, 'links.json', 'data/links.json');
+    
+                    const missingStr = JSON.stringify(missingData)
+                    await writeData(missingStr, 'missingLinks.json', 'data/missingLinks.json')
+                    console.log('backed up data to ddw')
+                }
+    
+                if (index === hospitalURLs.length - 1) {
+                    await context.close()
+                    await browser.close()
+                    const allStr = JSON.stringify(data)
+                    await writeData(allStr, 'links.json', 'data/links.json');
+    
+                    const missingStr = JSON.stringify(missingData)
+                    await writeData(missingStr, 'missingLinks.json', 'data/missingLinks.json')
+        
+                }
+        
             }
+    
     
         }
-
-
+        console.log('for loop finished!')
+        console.timeEnd('finding hospitals')
     }
-    console.log('for loop finished!')
+
+
+
   
 
 })().catch(error => console.error(`Error going to site: ${error}`))
