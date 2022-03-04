@@ -154,21 +154,23 @@ async function checkUrl(url){
             // make sure it doesn't go off to paypal
             const paypal = url.includes('paypal')
 
+            // make sure it isn't mychart login page
+            const mychart = url.includes('mychart')
+
+            // make sure it isn't a pdf
+            const pdf = url.includes('.pdf')
+
+            const goodToCheck = !alreadyChecked && !mail && !cms && !paypal && !mychart && !pdf
+
             // if it hasn't already been checked
-            if (!alreadyChecked && !mail && !cms && !paypal) {
+            if (goodToCheck) {
 
                 // add url to list of urls that have been checked
                 allCheckedUrls.push(url)
 
                 if (url.includes('download')){
-                    // if the url triggered a download, add that download to allFiles and don't go to page
-                    const [download] = await Promise.all([
-                        page.waitForEvent('download'),
-                        page.locator(`a[href="${url}"]`).click()
-                    ])
-                    download.delete()
-                    const downloadUrl = download.url()
-                    allFileUrls.push({foundAt: url, files: [downloadUrl]})
+                    // if the url triggered a download, don't click, skip it entirely
+                    return 'skipped'
 
                 } else {
                     // if the url doesn't appear to trigger a download, navigate to it
@@ -351,15 +353,10 @@ async function writeData(str, filename, path){
                 }
         
             }
-    
-    
+
         }
         console.log('for loop finished!')
         console.timeEnd('finding hospitals')
     }
-
-
-
-  
 
 })().catch(error => console.error(`Error going to site: ${error}`))
