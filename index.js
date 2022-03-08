@@ -17,7 +17,7 @@ let bestGuesses = [];
 let SLICE_NUMBER = 50;
 let BACKUP = 50;
 
-let hospitalURLs
+//let hospitalURLs
 
 // create write streams for exporting data
 const foundLogger = fs.createWriteStream('data/links.json', {
@@ -29,6 +29,7 @@ const missingLogger = fs.createWriteStream('data/missingLinks.json', {
 })
 
 async function downloadHospitalUrls(){
+ 
 
     const options = {
         headers: {
@@ -37,14 +38,17 @@ async function downloadHospitalUrls(){
         }
     }
 
-    needle.get('https://api.data.world/v0/queries/07c801a1-9a0a-4cc6-9a72-39bb615472eb/results', options, (err, resp) => {
-        if (err) console.error(err)
-        const flatten = resp.body
-            .map(d => d.searchUrl)
-            //.slice(0, SLICE_NUMBER)
+    const urls = needle('get', 'https://api.data.world/v0/queries/07c801a1-9a0a-4cc6-9a72-39bb615472eb/results', options)
+        .then(resp => {
+            return flatten = resp.body
+                .map(d => d.searchUrl)
+                .slice(0, SLICE_NUMBER)
 
-        hospitalURLs = flatten;
-})
+        })
+        .catch(err => `Error getting urls from data.world ${err}`)
+
+    return urls
+            
 }
 
 
@@ -300,19 +304,20 @@ async function writeData(str, filename, path){
     console.time('finding hospitals')
 
     // download hospital urls from ddw
-    await downloadHospitalUrls()
+    const hospitalURLs = await downloadHospitalUrls()
 
     // launch browser
     const browser = await chromium.launch({ headless: false, timeout: 2000, args:['--no-sandbox']});
 
     // launch browser context
-    const context = await browser.newContext();
+    // const context = await browser.newContext();
 
-    // launch a new page and save to global variable page
-    page = await context.newPage();
 
     if (hospitalURLs){
-        for await (const [index, url] of hospitalURLs.entries()){
+        for  (const [index, url] of hospitalURLs.entries()){
+
+            // launch a new page and save to global variable page
+            page = await browser.newPage();
         
             // reset to blank
             allFileUrls = [];
@@ -322,10 +327,14 @@ async function writeData(str, filename, path){
             // find if url is unique after redirect
             const unique = await checkDomain(url)
                 .catch(err => `Something wrong with checking domain ${err}`)
+
     
             if (unique){
     
                 const textFindings = await checkUrl(url)
+
+                // after we're done checking the url, close the page
+                await page.close()
     
     
                 if (textFindings === 'success' && allFileUrls.length){
