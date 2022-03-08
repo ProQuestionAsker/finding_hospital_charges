@@ -6,19 +6,27 @@ require('dotenv').config()
 
 let page;
 
-const words = ['pric', 'cms', 'estimat', 'charg', 'pay', 'machine read', 'financ']
+const words = ['pric', 'cms', 'estimat', 'charg', 'pay', 'machine read', 'financ', 'bill']
 const fileTypes = ['xls', 'csv', 'json', 'ashx', 'txt', 'zip']
 
 let allFileUrls = [];
 let allCheckedUrls = [];
 let thisCheckedUrls = 0;
-let data = [];
-let missingData = [];
 let MAX_TO_CHECK = 50
 let bestGuesses = [];
-let SLICE_NUMBER = 300;
+let SLICE_NUMBER = 50;
+let BACKUP = 50;
 
 let hospitalURLs
+
+// create write streams for exporting data
+const foundLogger = fs.createWriteStream('data/links.json', {
+    flags: 'a' // append to the file
+})
+
+const missingLogger = fs.createWriteStream('data/missingLinks.json', {
+    flags: 'a' // append to the file
+})
 
 async function downloadHospitalUrls(){
 
@@ -33,7 +41,7 @@ async function downloadHospitalUrls(){
         if (err) console.error(err)
         const flatten = resp.body
             .map(d => d.searchUrl)
-            .slice(0, SLICE_NUMBER)
+            //.slice(0, SLICE_NUMBER)
 
         hospitalURLs = flatten;
 })
@@ -239,7 +247,8 @@ async function combineData(url){
         if (dupes)  fileUrls = {originalUrl: url, foundAt: [allFileUrls[0].foundAt, allFileUrls[1].foundAt], files: allFileUrls[0].files} 
     }
 
-    data.push(fileUrls)
+    return fileUrls
+    //data.push(fileUrls)
 
 }
 
@@ -253,8 +262,8 @@ async function writeLocally(str, path){
 }
 
 async function writeToDDW(path, filename){
-    const agentid = 'amberthomas'
-    const datasetid = 'location-of-price-transparency-data'
+    const agentid = 'ushealthcarepricing'
+    const datasetid = 'location-of-standard-charge-files'
 
     const fileData = {
         file: {
@@ -321,35 +330,51 @@ async function writeData(str, filename, path){
     
                 if (textFindings === 'success' && allFileUrls.length){
     
-                    await combineData(url)
+                    // combine information 
+                    const fileUrls = await combineData(url)
+
+                    // convert to string and save locally
+                    const str = JSON.stringify(fileUrls)
+                    foundLogger.write(str)
+                    
+                    // log out that something was found
                     console.log(`Found ${index}/${hospitalURLs.length - 1}`)
     
                 } else if (textFindings === 'success' && !allFileUrls.length) {
                     // if the script has finished looking but found nothing
                     // add the url to our list of sites with missing information
-                    missingData.push({originalUrl: url, bestGuesses})
+
+                    // find unique URLs
+                    const uniqueBest = [...new Set(bestGuesses.flat())]
+
+                    const missingUrls = {originalUrl: url, bestGuesses: uniqueBest}
+
+                    // convert to string and save locally
+                    const str = JSON.stringify(missingUrls)
+                    missingLogger.write(str)
+          
+                    // log out that that url was missing files
                     console.log(`Missing ${index}/${hospitalURLs.length - 1}`)
                 }
     
                 // push updates to ddw every 50 urls checked in case something crashes
-                if (index % 50 === 0 && index !== 0){
-                    const allStr = JSON.stringify(data)
-                    await writeData(allStr, 'links.json', 'data/links.json');
-    
-                    const missingStr = JSON.stringify(missingData)
-                    await writeData(missingStr, 'missingLinks.json', 'data/missingLinks.json')
+                if (index % BACKUP === 0 && index !== 0){
+                    await writeToDDW('data/links.json', 'links.json')
+                    await writeToDDW('data/missingLinks.json', 'missingLinks.json')
+
                     console.log('backed up data to ddw')
                 }
     
                 if (index === hospitalURLs.length - 1) {
                     await context.close()
                     await browser.close()
-                    const allStr = JSON.stringify(data)
-                    await writeData(allStr, 'links.json', 'data/links.json');
-    
-                    const missingStr = JSON.stringify(missingData)
-                    await writeData(missingStr, 'missingLinks.json', 'data/missingLinks.json')
-        
+
+                    // close writeable streams
+                    foundLogger.end()
+                    missingLogger.end()
+
+                    await writeToDDW('data/links.json', 'links.json')
+                    await writeToDDW('data/missingLinks.json', 'missingLinks.json')
                 }
         
             }
