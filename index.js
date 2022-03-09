@@ -17,7 +17,14 @@ let bestGuesses = [];
 let SLICE_NUMBER = 50;
 let BACKUP = 50;
 
-//let hospitalURLs
+// all hospital urls from wikidata
+const allHospitalQuery = '07c801a1-9a0a-4cc6-9a72-39bb615472eb'
+
+// only hospitals that we've already checked but have returned a "best guess" url of where the files may be
+const bestGuessHospitalQuery = 'd719ee80-3677-47ef-b458-545813bc8088'
+
+const queryToRun = bestGuessHospitalQuery
+
 
 // create write streams for exporting data
 const foundLogger = fs.createWriteStream('data/links.json', {
@@ -38,11 +45,11 @@ async function downloadHospitalUrls(){
         }
     }
 
-    const urls = needle('get', 'https://api.data.world/v0/queries/07c801a1-9a0a-4cc6-9a72-39bb615472eb/results', options)
+    const urls = needle('get', `https://api.data.world/v0/queries/${queryToRun}/results`, options)
         .then(resp => {
             return flatten = resp.body
                 .map(d => d.searchUrl)
-                .slice(0, SLICE_NUMBER)
+                //.slice(0, SLICE_NUMBER)
 
         })
         .catch(err => `Error getting urls from data.world ${err}`)
@@ -180,11 +187,11 @@ async function checkUrl(url){
                 // add url to list of urls that have been checked
                 allCheckedUrls.push(url)
 
-                if (url.includes('download')){
-                    // if the url triggered a download, don't click, skip it entirely
-                    return 'skipped'
+                // if (url.includes('download')){
+                //     // if the url triggered a download, don't click, skip it entirely
+                //     return 'skipped'
 
-                } else {
+                // } else {
                     // if the url doesn't appear to trigger a download, navigate to it
                     // go to page
                     await page.goto(url, {timeout: 7000, waitUntil: 'domcontentloaded'})
@@ -196,6 +203,8 @@ async function checkUrl(url){
                     // check page for files of the type we're looking for
                     const foundFiles = await checkForAllFiles()
                         .catch(err => `Error finding files ${err}`)
+
+                    
 
                     if (foundWords.length && !foundFiles.length && !allFileUrls.length && thisCheckedUrls < MAX_TO_CHECK){
                         // if word match links were found but no files, run it again
@@ -210,10 +219,10 @@ async function checkUrl(url){
                         const uniqueFindings = [...new Set(flatFileFindings)]
 
                         // if files were found, add them to our empty array
-                        allFileUrls.push({foundAt: url, files: flatFileFindings})
+                        allFileUrls.push({foundAt: url, files: uniqueFindings})
                     }
 
-                }
+                // }
 
             }
         }
@@ -290,14 +299,6 @@ async function writeToDDW(path, filename){
 
 }
 
-async function writeData(str, filename, path){
-
-    await writeLocally(str, path)
-    await writeToDDW(path, filename)
-
-}
-
-
 
     
 (async function findFiles(){ 
@@ -305,6 +306,8 @@ async function writeData(str, filename, path){
 
     // download hospital urls from ddw
     const hospitalURLs = await downloadHospitalUrls()
+
+    //const hospitalURLs = ['https://www.medstarhealth.org/price-transparency-disclosures']
 
     // launch browser
     const browser = await chromium.launch({ headless: false, timeout: 2000, args:['--no-sandbox']});
@@ -375,7 +378,7 @@ async function writeData(str, filename, path){
                 }
     
                 if (index === hospitalURLs.length - 1) {
-                    await context.close()
+                    //await context.close()
                     await browser.close()
 
                     // close writeable streams
