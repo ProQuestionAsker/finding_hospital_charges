@@ -58,7 +58,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "ddw": "node ddw.js"
+    "ddw": "node ddw.js",
+    "demo": "node demo.js"
   },
   "author": "Amber Thomas",
   "license": "ISC",

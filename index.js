@@ -14,7 +14,7 @@ let allCheckedUrls = [];
 let thisCheckedUrls = 0;
 let MAX_TO_CHECK = 50
 let bestGuesses = [];
-let SLICE_NUMBER = 50;
+let SLICE_NUMBER = 40;
 let BACKUP = 50;
 
 // all hospital urls from wikidata
@@ -23,7 +23,7 @@ const allHospitalQuery = '07c801a1-9a0a-4cc6-9a72-39bb615472eb'
 // only hospitals that we've already checked but have returned a "best guess" url of where the files may be
 const bestGuessHospitalQuery = 'd719ee80-3677-47ef-b458-545813bc8088'
 
-const queryToRun = bestGuessHospitalQuery
+const queryToRun = allHospitalQuery
 
 
 // create write streams for exporting data
@@ -47,9 +47,10 @@ async function downloadHospitalUrls(){
 
     const urls = needle('get', `https://api.data.world/v0/queries/${queryToRun}/results`, options)
         .then(resp => {
+
             return flatten = resp.body
                 .map(d => d.searchUrl)
-                //.slice(0, SLICE_NUMBER)
+                //.slice(20, SLICE_NUMBER)
 
         })
         .catch(err => `Error getting urls from data.world ${err}`)
