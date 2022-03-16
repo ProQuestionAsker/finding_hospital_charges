@@ -9,3 +9,6 @@ This script runs in several steps:
 
 ## What you need
 This script expects that you have data.world API credentials saved in a `.env` file at the base of your project directory. You'll find more information about data.world API credentials [here](https://docs.data.world/en/64499-65048-10--Finding-your-API-tokens-for-data-world.html).
+
+## Running the script
+This script can be run using `npm run start`
