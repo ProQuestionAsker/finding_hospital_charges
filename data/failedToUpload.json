@@ -1,0 +1,11 @@
+[{
+    "name": "Antelope Valley Hospital",
+    "originalurl": "https://www.avhospital.org/",
+    "foundat": "[\"https://www.avmc.org/patients/billing-insurance-pricing/\"]",
+    "files": "[\"https://www.avmc.org/documents/content/Copy-of-AVH-Average-Charges-by-DRG-CY2020.xlsx\",\"https://www.avmc.org/documents/content/Chargemaster-Export-12302020[1].xlsx\"]"
+}, {
+    "name": "Barnes-Jewish Hospital",
+    "originalurl": "http://www.barnesjewish.org/",
+    "foundat": "[\"https://www.memhosp.com/billing-financial\",\"http://www.bjc.org/For-Patients-Visitors/Financial-Assistance-Billing-Resources\"]",
+    "files": "[\"https://www.bjc.org/Portals/0/Content/Financial%20Assitance/Provider%20List_2015.12.21.xlsx?ver=2015-12-31-131132-447\",\"https://www.bjc.org/Portals/0/Content/Financial%20Assitance/Provider%20List_2015.12.21.xlsx\"]"
+}]
