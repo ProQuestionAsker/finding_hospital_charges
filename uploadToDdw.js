@@ -5,7 +5,8 @@ require('dotenv').config()
 
 // https://data.world/ushealthcarepricing/preparing-for-dataset-upload/workspace/query?queryid=185fb2f9-fdea-487c-ba32-2afc2459783b
 const queryToRun = '185fb2f9-fdea-487c-ba32-2afc2459783b'
-const SLICE_NUMBER = 53
+const SLICE_START = 600
+const SLICE_END = SLICE_START + 50
 const OWNER = 'ushealthcarepricing'
 
 const failLogger = fs.createWriteStream('data/failedToUpload.json', {
@@ -27,7 +28,7 @@ async function downloadHospitalInfo(){
         .then(resp => {
 
             return flatten = resp.body
-                .slice(52, SLICE_NUMBER)
+                .slice(SLICE_START, resp.body.length)
 
         })
         .catch(err => `Error getting info from data.world ${err}`)
@@ -120,7 +121,7 @@ async function writeToDDW(fileData){
     `https://api.data.world/v0/datasets/${OWNER}`, fileData, fileOptions)
         .then(resp => {
             
-            console.log(resp.body, resp.statusCode, resp.headers)
+            //console.log(resp.body, resp.statusCode, resp.headers)
             return resp.statusCode
         })
 
