@@ -1,1115 +1,1015 @@
 [{
     "originalUrl": "http://Integrisok.com",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://MedStarUnionMemorial.org/",
-    "bestGuesses": [
-        "https://www.medstarhealth.org/price-transparency-disclosures"
+    "foundAt": ["https://hospitalpricedisclosure.com/Default"],
+    "files": [
+        "https://cleverleypteusstatic.blob.core.windows.net/readable/370028_INTEGRIS-Baptist-Medical-Center_StandardCharges.json",
+        "https://cleverleypteusstatic.blob.core.windows.net/readable/37002P_INTEGRIS-Baptist-Medical-Center-%e2%80%93-Portland-Avenue_StandardCharges.json",
+        "https://cleverleypteusstatic.blob.core.windows.net/readable/370016_INTEGRIS-Bass-Baptist-Health-Center_StandardCharges.json",
+        "https://cleverleypteusstatic.blob.core.windows.net/readable/370211_INTEGRIS-Canadian-Valley-Hospital_StandardCharges.json",
+        "https://cleverleypteusstatic.blob.core.windows.net/readable/37002C_INTEGRIS-Cancer-Institute_StandardCharges.json",
+        "https://cleverleypteusstatic.blob.core.windows.net/readable/370236_INTEGRIS-Edmond_StandardCharges.json",
+        "https://cleverleypteusstatic.blob.core.windows.net/readable/370113_INTEGRIS-Grove-Hospital_StandardCharges.json",
+        "https://cleverleypteusstatic.blob.core.windows.net/readable/37002J_INTEGRIS-Jim-Thorpe-Rehabilitation_StandardCharges.json",
+        "https://cleverleypteusstatic.blob.core.windows.net/readable/370199_INTEGRIS-Lakeside-Women-_s-Hospital_StandardCharges.json",
+        "https://cleverleypteusstatic.blob.core.windows.net/readable/370004_INTEGRIS-Miami-Hospital_StandardCharges.json",
+        "https://cleverleypteusstatic.blob.core.windows.net/readable/370106_INTEGRIS-Southwest-Medical-Center_StandardCharges.json"
     ]
 }, {
     "originalUrl": "http://alaska.providence.org/locations/pamc/Pages/default.aspx",
-    "bestGuesses": [
-        "https://www.providence.org/obp/get-a-price-estimate"
-    ]
+    "foundAt": ["https://www.providence.org/obp/ak/pricing-transparency"],
+    "files": []
 }, {
     "originalUrl": "http://andersonclinic.com/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://anmc.org/",
-    "bestGuesses": [
-        "https://anmc.org/pricing-transparency/"
-    ]
+    "foundAt": [ "https://anmc.org/pricing-transparency/"],
+    "files": ["https://apps.para-hcfs.com/PTT/FinalLinks/AlaskaNative_V3.aspx#"]
 }, {
     "originalUrl": "http://arosieplace.org/index.php",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://aspirus.org/AspirusWausauHospital/Our-Locations/Aspirus-Wausau-Hospital-518.aspx",
-    "bestGuesses": []
+    "foundAt": ["https://www.aspirus.org/price-estimate"],
+    "files": [
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390806250_aspirus-divinesavior-hospital_standardcharges.JSON",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390985690_aspirus-eagleriver-hospital_standardcharges.JSON",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390806429_aspirus-langlade-hospital_standardcharges.json",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390964813_aspirus-medford-hospital_standardcharges.json",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390808503_aspirus-merrill-hospital_standardcharges.JSON",
+        "https://www.aspirus.org/Uploads/Public/Documents/StandardCharges/2022/391138241_aspirus-plover-hospital_standardcharges.json",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/391390638_aspirus-rhinelander-hospital_standardcharges.JSON",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390868982_aspirus-riverview-hospital_standardcharges.json",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390807065_aspirus-stanley-hospital_standardcharges.JSON",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390808443_aspirus-stevenspoint-hospital_standardcharges.JSON",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/391390638_aspirus-tomahawk-hospital_standardcharges.JSON",
+        "https://www.aspirus.org/Uploads/Public/Documents/StandardCharges/2022/391138241_aspirus-wausau-hospital_standardcharges.json",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390873606_aspirus-howardyoung-medical-center_standardcharges.JSON",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/383236977_aspirus-ironriver-hospital_standardcharges.json",
+        "https://www.aspirus.org/price-estimate#:~:text=382908586_aspirus%2Dironwood%2Dhospital_standardcharges.json",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/381443361_aspirus-keweenaw-hospital_standardcharges.json",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/260806477_aspirus-ontonagon-hospital_standardcharges.json"
+    ]
 }, {
     "originalUrl": "http://assurancehealthsystem.com/locations/anderson/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://assurancehealthsystem.com/locations/indianapolis/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://athensnursesclinic.org/wp/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://athensorthopedicclinic.com",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://azheart.com/",
-    "bestGuesses": [
-        "https://biltmorecardiology.com/providers/cardiology/joshua-price-aanp/"
-    ]
+    "foundAt": [
+        "https://biltmorecardiology.com/"
+    ],
+    "files": []
 }, {
     "originalUrl": "http://azhearthospital.i.com.com/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://bchcares.org/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://bestheartcare.com/",
-    "bestGuesses": []
+    "foundAt": ["https://bchcares.org/boulder-city-hospital-standard-charges/"],
+    "files": ["https://bchcares.org/wp-content/uploads/2021/01/880065829_Boulder-City-Hopsital-_standardcharges-20210108.xlsx"]
 }, {
     "originalUrl": "http://boneandjointclinicbr.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://bonutticlinic.com/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://brentwoodbehavioral.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://california.providence.org/san-pedro/",
-    "bestGuesses": [
-        "https://www.providence.org/obp/ca/ca-la/pricing-transparency",
-        "https://www.providence.org/obp/get-a-price-estimate"
-    ]
-}, {
-    "originalUrl": "http://california.providence.org/torrance/",
-    "bestGuesses": [
-        "https://www.providence.org/obp/get-a-price-estimate"
-    ]
+    "foundAt": ["https://brentwoodbehavioral.com/standard-services/"],
+    "files": ["https://uhsfilecdn.eskycity.net/bh/200474854-brentwood-la-standard_charges.csv"]
 }, {
     "originalUrl": "http://californiarehabinstitute.com/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://cancerclinic.com/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://careidresearch.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://championrecovery.com",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://chicago.medicine.uic.edu/departments___programs/departments/eye",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://childrenshospitaloakland.org",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://clinicalpharmacologyofmiami.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://dclpde.com/",
-    "bestGuesses": []
+    "foundAt": ["https://www.ucsfbenioffchildrens.org/billing-and-insurance/pricing-transparency"],
+    "files": [
+        "https://app.box.com/index.php?rm=box_download_shared_file&shared_name=zetpp1qheof0p0cxrematepig0xlt5lx%20&file_id=f_925272788965",
+        "https://app.box.com/index.php?rm=box_download_shared_file&shared_name=a1ar76svdar9d86z73hfk8bnmz472576&file_id=f_925267042987"
+    ]
 }, {
     "originalUrl": "http://doctors-hospital.net/",
-    "bestGuesses": [
-        "https://doctors-hospital.net/patient-financial/insured-patient",
-        "https://doctors-hospital.net/#ehc-acr1",
-        "https://doctors-hospital.net/patient-financial/about",
-        "https://doctors-hospital.net/patient-financial/insurance-decision",
-        "https://doctors-hospital.net/patient-financial/about#collapse1",
-        "https://doctors-hospital.net/patient-financial/about#collapse7",
+    "foundAt": [
         "https://doctors-hospital.net/about/legal/pricing-transparency-cms-required-file-of-standard-charges.dot"
-    ]
-}, {
-    "originalUrl": "http://doctorsmedicalcenter.org/",
-    "bestGuesses": []
+    ],
+    "files": ["https://core.secure.ehc.com/src/util/detail-price-list/58-1162801_doctors-hospital-of-augusta_standardcharges.csv"]
 }, {
     "originalUrl": "http://doctorsofsarasota.com",
-    "bestGuesses": [
-        "https://www.hcafloridahealthcare.com/patient-resources/patient-financial-resources/our-pricing-commitment",
-        "https://www.hcafloridahealthcare.com/patient-resources/patient-financial-resources/pricing-estimates-and-information",
-        "https://www.hcafloridahealthcare.com/patient-resources/patient-financial-resources/florida-pricing-transparency",
-        "https://www.hcafloridahealthcare.com/patient-resources/patient-financial-resources/pricing-transparency-cms-required-file-of-standard-charges",
-        "https://pricing.floridahealthfinder.gov/",
-        "https://www.hcafloridahealthcare.com/locations/sarasota-doctors-hospital/for-patients/patient-financial-resources/our-pricing-commitment",
-        "https://www.hcafloridahealthcare.com/locations/sarasota-doctors-hospital/for-patients/patient-financial-resources/pricing-estimates-and-information",
-        "https://www.hcafloridahealthcare.com/locations/sarasota-doctors-hospital/for-patients/patient-financial-resources/florida-pricing-transparency"
-    ]
+    "foundAt": [
+        "https://pricing.floridahealthfinder.gov/#!data-download"
+    ],
+    "files": []
 }, {
     "originalUrl": "http://dukecancerinstitute.org/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://e-mercy.com/jewish-hospital.aspx",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://ech.cwru.edu/ech-cgi/article.pl?id=MSMC",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://elevationsrtc.com/",
-    "bestGuesses": [
-        "https://www.elevationsrtc.com/peak-4/",
-        "https://www.elevationsrtc.com/residential-treatment-facility/#peak4"
-    ]
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://englewoodcommhospital.com",
-    "bestGuesses": [
-        "https://www.hcafloridahealthcare.com/locations/englewood-hospital/for-patients/patient-financial-resources/our-pricing-commitment",
-        "https://www.hcafloridahealthcare.com/locations/englewood-hospital/for-patients/patient-financial-resources/pricing-estimates-and-information",
-        "https://www.hcafloridahealthcare.com/locations/englewood-hospital/for-patients/patient-financial-resources/florida-pricing-transparency",
-        "https://pricing.floridahealthfinder.gov/",
-        "https://www.hcafloridahealthcare.com/locations/fawcett-hospital/for-patients/patient-financial-resources/our-pricing-commitment",
-        "https://www.hcafloridahealthcare.com/locations/fawcett-hospital/for-patients/patient-financial-resources/pricing-estimates-and-information",
-        "https://www.hcafloridahealthcare.com/locations/fawcett-hospital/for-patients/patient-financial-resources/florida-pricing-transparency",
-        "https://www.hcafloridahealthcare.com/locations/fawcett-hospital/for-patients/patient-financial-resources/pricing-transparency-cms-required-file-of-standard-charges",
-        ""
-    ]
+    "foundAt": [
+        "https://www.hcafloridahealthcare.com/locations/englewood-hospital/for-patients/patient-financial-resources/florida-pricing-transparency"
+    ],
+    "files": []
 }, {
     "originalUrl": "http://fawcetthospital.com/",
-    "bestGuesses": []
+    "foundAt": ["https://www.hcafloridahealthcare.com/locations/fawcett-hospital/for-patients/patient-financial-resources/pricing-transparency-cms-required-file-of-standard-charges"],
+    "files": ["https://hcah-p-001-delivery.stylelabs.cloud/api/public/content/5d7c74349ea5438a90ca6fa9e1043c06?v=5a681fe3"]
 }, {
     "originalUrl": "http://foothillfamilyclinic.com/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://gesslerclinic.com/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://gmha.org/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://gravesgilbert.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://harbor-ucla.org/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://health.uc.edu/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://health.ucsd.edu",
-    "bestGuesses": [
-        "https://health.ucsd.edu/insurance-billing/standard-charges/Pages/default.aspx"
+    "foundAt": ["https://www.gmha.org/guide/billing/fee-schedule/"],
+    "files": [
+        "https://www.gmha.org/wp-content/uploads/Fee_Schedule/Current_Hospital_Fees/PFR-03012022.pdf", 
+        "https://www.gmha.org/wp-content/uploads/Fee_Schedule/GMHA-FacFees_04.01.22.pdf"
     ]
 }, {
-    "originalUrl": "http://healthcare.utah.edu/orthopaedics",
-    "bestGuesses": []
+    "originalUrl": "http://gravesgilbert.com/",
+    "foundAt": [],
+    "files": []
 }, {
-    "originalUrl": "http://healthcare.utah.edu/uni",
-    "bestGuesses": []
+    "originalUrl": "http://health.uc.edu/",
+    "foundAt": [],
+    "files": []
+}, {
+    "originalUrl": "http://health.ucsd.edu",
+    "foundAt": [
+        "https://health.ucsd.edu/insurance-billing/standard-charges/Pages/default.aspx"
+    ], 
+    "files": ["http://hsfiles.ucsd.edu/patientBilling/UC-San-Diego-Standard-Charges-956006144.json"]
+}, {
+    "originalUrl": "http://healthcare.utah.edu",
+    "foundAt": ["https://healthcare.utah.edu/bill/#viewourstandardcharges"],
+    "files": ["https://healthcare.utah.edu/pricing/pdfs/uuhc-standard-charges_final-g.xlsx"]
 }, {
     "originalUrl": "http://hebrewhospitalhome.org/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://henricodoctors.com/",
-    "bestGuesses": [
-        "http://hcavirginia.com/patients-and-visitors/virginia-pricing-transparency.dot",
-        "https://hcavirginia.com/patients-and-visitors/virginia-pricing-transparency.dot",
-        "https://hcavirginia.com/patient-financial/about",
-        "https://hcavirginia.com/patient-financial/insurance-decision",
-        "https://hcavirginia.com/patient-financial/about#collapse1",
-        "https://hcavirginia.com/patient-financial/about#collapse7",
+    "foundAt": [
         "https://hcavirginia.com/about/legal/pricing-transparency-cms-required-file-of-standard-charges.dot"
+    ], 
+    "files": [
+        "https://core.secure.ehc.com/src/util/detail-price-list/54-1779911_cjw-medical-center_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/621410313_dominion-hospital_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/62-1113733_henrico-doctors-hospital_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/611272888_john-randolph-medical-center_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/54-1779911_cjw-medical-center_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/54-1761046_lewisgale-hospital-alleghany_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/54-0889154_lewisgale-hospital-montgomery_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/154-0941129_lewisgale-hospital-pulaski_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/621760148_lewisgale-medical-center_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/62-1113733_henrico-doctors-hospital_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/62-1777534_reston-hospital-center_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/621113733_retreat-hospital_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/06-1760818_spotsylvania-regional-medical-center_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/04-3665595_stonesprings-hospital-center_standardcharges.csv"
     ]
 }, {
     "originalUrl": "http://hillman.upmc.com/find/locations/uniontown-hospital-pa",
-    "bestGuesses": [
+    "foundAt": [
         "https://www.upmc.com/patients-visitors/paying-bill/services#e1ef3001-0755-4076-a045-9af4f3b23e0e"
-    ]
-}, {
-    "originalUrl": "http://hoagp.org/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://inclentrust.org/inclen/",
-    "bestGuesses": []
+    ], 
+    "files": []
 }, {
     "originalUrl": "http://inspirahealthnetwork.org",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://integrisok.com/",
-    "bestGuesses": []
+    "foundAt": ["https://search.hospitalpriceindex.com/hpi2/hospital/InspiraHealthNetwork/8116or?page=1"],
+    "files": []
 }, {
     "originalUrl": "http://intermountainhealthcare.org/hospitals/sanpete/Pages/home.aspx",
-    "bestGuesses": []
+    "foundAt": ["https://intermountainhealthcare.org/patient-tools/hospital-cost-estimates/"],
+    "files": [
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_alta-view-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_american-fork-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_bear-river-valley-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_cassia-regional-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_cedar-city-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_delta-community-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_Fillmore-community-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_garfield-memorial-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_heber-valley-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_intermountain-medical-center_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_lds-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_layton-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_logan-regional-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_mckaydee-hospital-center_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_orem-community-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_park-city-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_primary-childrens-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_riverton-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_Sanpete-valley-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_st-george-regional-hospital_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_the-orthopedic-specialty-hosp_standardcharges.ashx",
+        "https://intermountainhealthcare.org/-/media/files-sc9/price-transparency/machine-readable/942854057_utah-valley-hospital_standardcharges.ashx"
+    ]
 }, {
     "originalUrl": "http://jflusvi.org/",
-    "bestGuesses": [
+    "foundAt": [
         "http://jflusvi.org/price-transparency/"
-    ]
+    ], 
+    "files": []
 }, {
     "originalUrl": "http://kach.amedd.army.mil/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://kensingtonhospital.org/",
-    "bestGuesses": [
-        ""
-    ]
-}, {
-    "originalUrl": "http://kentuckianamedcen.com/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://lakehealthdistrict.org/",
-    "bestGuesses": [
-        "https://lakehealthdistrict.org/price-transparency/"
-    ]
+    "foundAt": ["https://lakehealthdistrict.org/price-transparency/"],
+    "files": ["https://apps.para-hcfs.com/PTT/FinalLinks/Lake_District_V3.aspx#"]
 }, {
     "originalUrl": "http://lakelandcommunityhospital.com/",
-    "bestGuesses": [
-        "https://www.yourcareeverywhere.com/content/medhost/your-care-everywhere/pricing-estimator-page.html?facility_id=98653bdc-9a2b-4fae-a56c-78b209247c4f",
-        "https://www.yourcareeverywhere.com/healthcare-choices/price-transparency-in-healthcare.html",
-        "https://www.yourcareeverywhere.com/healthcare-choices/prescription-drug-prices.html",
-        "https://www.yourcareeverywhere.com/healthcare-choices/price-transparency-in-healthcare/price-transparency-in-healthcare.html",
-        "https://www.yourcareeverywhere.com/healthcare-choices/price-transparency-in-healthcare/how-to-shop-for-price-transparency-in-healthcare.html",
-        "https://www.yourcareeverywhere.com/healthcare-choices/price-transparency-in-healthcare/does-price-affect-quality-of-service-.html",
-        "https://www.yourcareeverywhere.com/healthcare-choices/prescription-drug-prices/health-conditions-most-affected-by-high-drug-prices.html",
-        "https://www.yourcareeverywhere.com/healthcare-choices/prescription-drug-prices/drug-prices-that-are-lower-in-2020.html",
-        "https://www.yourcareeverywhere.com/healthcare-choices/prescription-drug-prices/how-do-medicare-prescription-costs-compare-to-2019-prices-.html",
-        "https://www.yourcareeverywhere.com/health-research/drug-or-supplement-lookup/the-straight-dope-on-pricey-prescription-drugs.html",
-        "https://www.aarp.org/politics-society/advocacy/info-2019/prescription-drugs-zarzecki-story.html",
-        "https://www.aarp.org/benefits-discounts/all/aarp-auto-buying-program/",
-        "http://fortune.com/2015/09/21/turing-pharmaceuticals-drug-prices-daraprim/",
-        "https://www.fairhealthconsumer.org/quality",
-        ""
+    "foundAt": ["https://lakelandcommunityhospital.com/patients-visitors/hospital-standard-average-charges"],
+    "files": [
+        "https://lakelandcommunityhospital.com/chargemaster/Standard_Charges_LCH.csv"
     ]
 }, {
     "originalUrl": "http://largomedical.com/",
-    "bestGuesses": []
+    "foundAt": ["https://www.hcafloridahealthcare.com/locations/largo-hospital/for-patients/patient-financial-resources/pricing-transparency-cms-required-file-of-standard-charges"],
+    "files": ["https://hcah-p-001-delivery.stylelabs.cloud/api/public/content/20b0567e3efa4e5da00ced212c181840?v=b965cd8e"]
 }, {
     "originalUrl": "http://lenoxhillhospital.org",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://lewisgale.com/location/lewisgale-hospital-montgomery",
-    "bestGuesses": [
-        "http://hcavirginia.com/patients-and-visitors/virginia-pricing-transparency.dot",
+    "foundAt": [
         "https://hcavirginia.com/patients-and-visitors/virginia-pricing-transparency.dot"
-    ]
+    ],
+    "files": []
 }, {
     "originalUrl": "http://lrfpc.com/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://mcchildrenshospital.com/",
-    "bestGuesses": [
-        "http://medicalcityhealthcare.com/patients-visitors/texas-pricing-transparency.dot",
-        "https://medicalcityhealthcare.com/patient-financial/insured-patient",
-        "https://medicalcityhealthcare.com/locations/medical-city-childrens-hospital/#ehc-acr8",
-        "https://medicalcityhealthcare.com/patient-financial/patient-financial-resource",
-        "https://medicalcityhealthcare.com/patients-visitors/texas-pricing-transparency.dot",
-        "https://medicalcityhealthcare.com/patient-financial/about",
-        "https://medicalcityhealthcare.com/patient-financial/insurance-decision"
-    ]
-}, {
-    "originalUrl": "http://mcgaw.northwestern.edu/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://med.stanford.edu/",
-    "bestGuesses": []
+    "foundAt": [
+        "http://medicalcityhealthcare.com/patients-visitors/texas-pricing-transparency.dot"
+    ],
+    "files": []
 }, {
     "originalUrl": "http://medicalcityhospital.com/",
-    "bestGuesses": [
-        "http://medicalcityhealthcare.com/patients-visitors/texas-pricing-transparency.dot",
-        "https://medicalcityhealthcare.com/patient-financial/insured-patient",
-        "https://medicalcityhealthcare.com/locations/medical-city-dallas/#ehc-acr5",
-        "https://medicalcityhealthcare.com/patient-financial/patient-financial-resource",
-        "https://medicalcityhealthcare.com/patients-visitors/texas-pricing-transparency.dot"
-    ]
+    "foundAt": [
+        "http://medicalcityhealthcare.com/patients-visitors/texas-pricing-transparency.dot"
+    ],
+    "files": []
 }, {
     "originalUrl": "http://memorialhospitaljax.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://memorydoc.org/",
-    "bestGuesses": []
+    "foundAt": ["https://www.hcafloridahealthcare.com/locations/memorial-hospital/for-patients/patient-financial-resources/pricing-transparency-cms-required-file-of-standard-charges"],
+    "files": ["https://hcah-p-001-delivery.stylelabs.cloud/api/public/content/d5398c66cf6844148343a21e7e741ffa?v=7a30fb15"]
 }, {
     "originalUrl": "http://mercy.net/practice/mercy-hospital-joplin",
-    "bestGuesses": [
+    "foundAt": [
         "https://www.mercy.net/forms/online-cost-estimator"
-    ]
+    ], 
+    "files": []
 }, {
     "originalUrl": "http://mercymiami.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://midlandathome.org/",
-    "bestGuesses": []
+    "foundAt": ["https://www.hcafloridahealthcare.com/locations/mercy-hospital/for-patients/patient-financial-resources/pricing-transparency-cms-required-file-of-standard-charges"],
+    "files": ["https://hcah-p-001-delivery.stylelabs.cloud/api/public/content/c7ffacb2e6fa45e6bd602ece1d8aa225?v=10272b74"]
 }, {
     "originalUrl": "http://monadnockcommunityhospital.com/main/cmc-mch-affiliation.php",
-    "bestGuesses": [
-        "https://monadnockcommunityhospital.com/financial-services/",
-        "https://monadnockcommunityhospital.com/financial-services/price-transparency-information/",
-        "https://hospitalpricedisclosure.com/Default.aspx?ci=aOt1yP2mHAtm2f5ldOPMAg*-*",
-        "https://www.nhha.org/images/HFMA_Consumer_Guide_to_Healthcare_Prices.pdf"
-    ]
+    "foundAt": [
+        "https://monadnockcommunityhospital.com/financial-services/price-transparency-information/"
+    ],
+    "files": ["https://cleverleypteusstatic.blob.core.windows.net/readable/02-0222157_Monadnock-Community-Hospital_StandardCharges.xlsx"]
 }, {
     "originalUrl": "http://montana.providence.org/hospitals/st-patrick/",
-    "bestGuesses": [
-        "https://www.providence.org/obp/get-a-price-estimate"
-    ]
+    "foundAt": [
+        "https://mychartwa.providence.org/mychart/GuestEstimates/AcceptDisclaimer?svcArea=Pn42An2jK0W%2FhO2AifBJGg%3D%3D&isMultiSA=true"
+    ], 
+    "files": []
 }, {
     "originalUrl": "http://mountainview-hospital.com/",
-    "bestGuesses": [
-        "https://mountainview-hospital.com/patient-financial/insured-patient",
-        "https://mountainview-hospital.com/#ehc-acr3",
-        "https://mountainview-hospital.com/patient-financial/about",
-        "https://mountainview-hospital.com/patient-financial/insurance-decision",
-        "tel:customer-service~MountainView Hospital~(866) 839-9121pricing-estimate~MountainView Hospital~(888) 253-1108",
-        "https://mountainview-hospital.com/patient-financial/about#collapse1",
-        "https://mountainview-hospital.com/patient-financial/about#collapse7",
+    "foundAt": [
         "https://mountainview-hospital.com/about/legal/pricing-transparency-cms-required-file-of-standard-charges.dot"
+    ],
+    "files": [
+        "https://core.secure.ehc.com/src/util/detail-price-list/621600397_mountainview-hospital_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/743048428_southern-hills-hosp-med-ctr-las-vegas_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/62-1762537_sunrise-hospital-and-medical-center_standardcharges.csv"
     ]
 }, {
-    "originalUrl": "http://mountsinai.org/locations/st-lukes",
-    "bestGuesses": [
-        "https://www.mountsinai.org/about/insurance/cost-estimator#accordion_ee7cf28443c9a710VgnVCM100000125aec0aRCRD"
+    "originalUrl": "http://mountsinai.org/",
+    "foundAt": [
+        "https://www.mountsinai.org/about/insurance/msh/price-transparency"
+    ],
+    "files": [
+        "https://www.mountsinai.org/files/MSHealth/Assets/HS/About/Insurance/131624096_mount-sinai-hospital_standardcharges.csv",
+        "https://www.mountsinai.org/files/MSHealth/Assets/HS/About/Insurance/135564934_mount-sinai-brooklyn_standardcharges.csv",
+        "https://www.mountsinai.org/files/MSHealth/Assets/HS/About/Insurance/135564934_mount-sinai-beth-israel_standardcharges.csv",
+        "https://www.mountsinai.org/files/MSHealth/Assets/HS/About/Insurance/131624096_mount-sinai-queens_standardcharges.csv",
+        "https://www.mountsinai.org/files/MSHealth/Assets/HS/About/Insurance/132997301_mount-sinai-morningside_west_standardcharges.csv",
+        "https://www.mountsinai.org/files/MSHealth/Assets/HS/About/Insurance/111352310_mount-sinai-south-nassau_standardcharges.csv",
+        "https://www.mountsinai.org/files/MSHealth/Assets/HS/About/Insurance/132997301_mount-sinai-morningside_west_standardcharges.csv",
+        "https://www.mountsinai.org/files/MSHealth/Assets/HS/About/Insurance/135562304_mount-sinai-new-york-eye-and-ear_standardcharges.csv"
     ]
 }, {
     "originalUrl": "http://mvhospital.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://my.clevelandclinic.org/florida",
-    "bestGuesses": [
-        "https://pricing.floridahealthfinder.gov/",
-        "https://my.clevelandclinic.org/patients/billing-finance/patient-price-lists"
-    ]
-}, {
-    "originalUrl": "http://my.clevelandclinic.org/locations_directions/Regional-Locations/stjhc/huron",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://mydoctor.kaiserpermanente.org/ncal/facilities/region/eastbay/area_master/about_us/richmond/index.jsp",
-    "bestGuesses": []
+    "foundAt": ["https://mvhospital.org/patients_and_visitor/patient-billing/"],
+    "files": ["https://healthcare.partners.org/pricetransparency/042104691_Marthas-Vineyard-Hospital_StandardCharges.zip"]
 }, {
     "originalUrl": "http://nrlc-group.net/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://nychhc.org/coler",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://ohiohealthmarionareaphysicians.com/About-Us/Smith-Clinic-History.aspx",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://oregon.providence.org/location-directory/p/providence-newberg-medical-center/",
-    "bestGuesses": [
-        "https://www.providence.org/obp/or/pricing-transparency",
-        "https://www.providence.org/obp/get-a-price-estimate"
+    "foundAt": ["https://www.nychealthandhospitals.org/paying-for-your-health-care/your-healthcare-costs/facility-charges/"],
+    "files": [
+        "https://hhinternet.blob.core.windows.net/machine-readable/132655001_Bellevue%20Hospital%20Center_standardcharges.csv",
+        "https://hhinternet.blob.core.windows.net/machine-readable/132655001_Coney%20Island%20Hospital_standardcharges.csv",
+        "https://hhinternet.blob.core.windows.net/machine-readable/132655001_Elmhurst%20Hospital%20Center_standardcharges.csv",
+        "https://hhinternet.blob.core.windows.net/machine-readable/132655001_Harlem%20Hospital%20Center_standardcharges.csv",
+        "https://hhinternet.blob.core.windows.net/machine-readable/132655001_Jacobi%20Medical%20Center_standardcharges.csv",
+        "https://hhinternet.blob.core.windows.net/machine-readable/132655001_Kings%20County%20Hospital%20Center_standardcharges.csv",
+        "https://hhinternet.blob.core.windows.net/machine-readable/132655001_Lincoln%20Medical%20Center_standardcharges.csv",
+        "https://hhinternet.blob.core.windows.net/machine-readable/132655001_Metropolitan%20Hospital%20Center_standardcharges.csv",
+        "https://hhinternet.blob.core.windows.net/machine-readable/132655001_North%20Central%20Bronx%20Hospital_standardcharges.csv",
+        "https://hhinternet.blob.core.windows.net/machine-readable/132655001_Queens%20Hospital%20Center_standardcharges.csv",
+        "https://hhinternet.blob.core.windows.net/machine-readable/132655001_Woodhull%20Medical%20Center_standardcharges.csv"
     ]
-}, {
-    "originalUrl": "http://oregon.providence.org/location-directory/p/providence-seaside-hospital/",
-    "bestGuesses": [
-        "https://www.providence.org/obp/or/pricing-transparency",
-        "https://www.providence.org/obp/get-a-price-estimate"
-    ]
-}, {
-    "originalUrl": "http://oregon.providence.org/location-directory/p/providence-st-vincent-medical-center/",
-    "bestGuesses": [
-        "https://www.providence.org/obp/or/pricing-transparency",
-        "https://www.providence.org/obp/get-a-price-estimate"
-    ]
-}, {
-    "originalUrl": "http://oswegocommunityhospital.com",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://ouhsc.edu",
-    "bestGuesses": []
 }, {
     "originalUrl": "http://palisadesmedical.org",
-    "bestGuesses": [
-        "https://www.hackensackmeridianhealth.org/en/Pay-Bill/Price-Estimates",
-        "https://mychart.hmhn.org/Mychart/GuestEstimates/",
-        "https://www.hackensackmeridianhealth.org/en/Pay-Bill/Price-Estimates/Carrier-Clinic-Price-Estimates-for-Care",
-        "https://www.hackensackmeridianhealth.org/en/Pay-Bill/Financial-Assistance"
+    "foundAt": [
+        "https://www.hackensackmeridianhealth.org/en/Pay-Bill/Price-Estimates/Charge-Description-Master"
+    ],
+    "files": [
+        "https://www.hackensackmeridianhealth.org/CDMBMC",
+        "https://www.hackensackmeridianhealth.org/CDMCC",
+        "https://www.hackensackmeridianhealth.org/CDMHUMC",
+        "https://www.hackensackmeridianhealth.org/CDMJFK",
+        "https://www.hackensackmeridianhealth.org/CDMJRI",
+        "https://www.hackensackmeridianhealth.org/CDMJSUMC",
+        "https://www.hackensackmeridianhealth.org/CDMOMC",
+        "https://www.hackensackmeridianhealth.org/CDMPMC",
+        "https://www.hackensackmeridianhealth.org/CDMRBMC",
+        "https://www.hackensackmeridianhealth.org/CDMRMC",
+        "https://www.hackensackmeridianhealth.org/CDMSOMC",
+        "https://www.hackensackmeridianhealth.org/CDMSRI"
     ]
 }, {
     "originalUrl": "http://palmspasadena.com/",
-    "bestGuesses": [
-        "https://www.hcafloridahealthcare.com/locations/pasadena-hospital/for-patients/patient-financial-resources/our-pricing-commitment",
-        "https://www.hcafloridahealthcare.com/locations/pasadena-hospital/for-patients/patient-financial-resources/florida-pricing-transparency",
-        "https://www.hcafloridahealthcare.com/locations/pasadena-hospital/for-patients/patient-financial-resources/pricing-estimates-and-information",
-        "https://pricing.floridahealthfinder.gov/",
-        "https://www.hcafloridahealthcare.com/locations/pasadena-hospital/for-patients/patient-financial-resources/pricing-transparency-cms-required-file-of-standard-charges",
-        ""
-    ]
-}, {
-    "originalUrl": "http://petersonsmith.com/",
-    "bestGuesses": []
+    "foundAt": [
+        "https://www.hcafloridahealthcare.com/locations/pasadena-hospital/for-patients/patient-financial-resources/pricing-transparency-cms-required-file-of-standard-charges"
+    ],
+    "files": ["https://hcah-p-001-delivery.stylelabs.cloud/api/public/content/794f36a267a04fe4802534ed8ffa3cf2?v=ce90904e"]
 }, {
     "originalUrl": "http://psych.ucsf.edu/lpphc",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://raulersonhospital.com/",
-    "bestGuesses": [
-        "https://www.hcafloridahealthcare.com/locations/raulerson-hospital/for-patients/patient-financial-resources/our-pricing-commitment",
-        "https://www.hcafloridahealthcare.com/locations/raulerson-hospital/for-patients/patient-financial-resources/pricing-estimates-and-information",
-        "https://www.hcafloridahealthcare.com/locations/raulerson-hospital/for-patients/patient-financial-resources/florida-pricing-transparency",
-        "https://www.hcafloridahealthcare.com/locations/raulerson-hospital/for-patients/patient-financial-resources/pricing-transparency-cms-required-file-of-standard-charges",
-        "https://pricing.floridahealthfinder.gov/",
-        ""
-    ]
-}, {
-    "originalUrl": "http://reidveterinaryhospital.com/",
-    "bestGuesses": []
+    "foundAt": [
+        "https://www.hcafloridahealthcare.com/locations/raulerson-hospital/for-patients/patient-financial-resources/pricing-transparency-cms-required-file-of-standard-charges"
+    ],
+    "files": ["https://hcah-p-001-delivery.stylelabs.cloud/api/public/content/c9a848217eb441f3bdba5f997651dae4?v=0e0c1bd4"]
 }, {
     "originalUrl": "http://rockymountainhospitalforchildren.com/",
-    "bestGuesses": [
-        "https://rockymountainhospitalforchildren.com/patients-visitors/colorado-pricing-transparency.dot",
-        "https://healthonecares.com/patients-visitors/colorado-pricing-transparency.dot",
-        "https://healthonecares.com/patient-financial/about",
-        "https://healthonecares.com/patient-financial/insurance-decision",
-        "https://healthonecares.com/patient-financial/about#collapse1",
-        "https://healthonecares.com/patient-financial/about#collapse7",
-        "https://healthonecares.com/about/legal/pricing-transparency-cms-required-file-of-standard-charges.dot",
-        "https://rockymountainhospitalforchildren.com/patient-financial/?page_name=about"
+    "foundAt": [
+        "https://healthonecares.com/about/legal/pricing-transparency-cms-required-file-of-standard-charges.dot"
+    ],
+    "files": [
+        "https://core.secure.ehc.com/src/util/detail-price-list/84-1321373_centennial-healthcare-plaza_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/84-1321373_north-suburban_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/84-1321373_p-sl-medical-center_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/84-1321373_rose-medical-center_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/84-1321373_sky-ridge-medical-center_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/841321505_spalding-rehabilitation-hospital_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/84-1321373_southwest-er_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/84-1321373_the-medical-center-aurora_standardcharges.csv"
     ]
 }, {
     "originalUrl": "http://rockymountainmsclinic.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://rosemed.com/",
-    "bestGuesses": [
-        "http://healthonecares.com/patients-visitors/colorado-pricing-transparency.dot",
-        "https://healthonecares.com/patients-visitors/colorado-pricing-transparency.dot",
-        "https://healthonecares.com/locations/rose/patients-visitors/patient-information/price-transparency.dot",
-        ""
-    ]
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://rrh.org/",
-    "bestGuesses": [
-        "https://ridgecrest.accureg.net/ExternalServices/PublicFacingPE/index.aspx",
-        "https://www.crunchbase.com/buy/select-product"
-    ]
+    "foundAt": [
+        "https://pricetransparency.accureg.net/ridgecrest"
+    ], 
+    "files": ["https://pricetransparency.blob.core.windows.net/ridgecrest/952082686_ridgecrestregionalhospital_standardcharges.csv"]
 }, {
     "originalUrl": "http://samaritanstouch.org/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://saranacvillage.com",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://sfgh.ucsf.edu/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://sheaclinic.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://sjmhim.tripod.com/hospital_files/2.htm",
-    "bestGuesses": [
-        "https://www.tripod.lycos.com/pricing/",
-        "http://shopping.lycos.com/"
-    ]
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://southernhillshospital.com/",
-    "bestGuesses": [
-        "https://southernhillshospital.com/patient-financial/insured-patient",
-        "https://southernhillshospital.com/#ehc-acr3",
-        "https://southernhillshospital.com/patient-financial/about",
-        "https://southernhillshospital.com/patient-financial/insurance-decision",
-        "tel:customer-service~Southern Hills Hospital & Medical Center~(866) 437-3502pricing-estimate~Southern Hills Hospital & Medical Center~(888) 253-1108",
-        "https://southernhillshospital.com/patient-financial/about#collapse1",
-        "https://southernhillshospital.com/patient-financial/about#collapse7",
+    "foundAt": [
         "https://southernhillshospital.com/about/legal/pricing-transparency-cms-required-file-of-standard-charges.dot"
+    ],
+    "files": [
+        "https://core.secure.ehc.com/src/util/detail-price-list/621600397_mountainview-hospital_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/743048428_southern-hills-hosp-med-ctr-las-vegas_standardcharges.csv",
+        "https://core.secure.ehc.com/src/util/detail-price-list/62-1762537_sunrise-hospital-and-medical-center_standardcharges.csv"
     ]
-}, {
-    "originalUrl": "http://spaldingrehab.com/",
-    "bestGuesses": [
-        "https://healthonecares.com/patients-visitors/colorado-pricing-transparency.dot"
-    ]
-}, {
-    "originalUrl": "http://spauldingrehab.org/locations/cambridge-ma/",
-    "bestGuesses": []
 }, {
     "originalUrl": "http://springhillmedicalcenter.com",
-    "bestGuesses": [
-        "https://springhillmedicalcenter.com/patients-visitors/patient-financial-resources/hospital-charges",
-        "https://onlinepatientestimation.com/PatientPortal/site/springhillmedicalcenter"
-    ]
-}, {
-    "originalUrl": "http://stbcloptonclinic.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://stcatherines.chsli.org",
-    "bestGuesses": [
-        "https://www.chsli.org/pricing-transparency"
-    ]
+    "foundAt": [
+        "https://springhillmedicalcenter.com/patients-visitors/patient-financial-resources/hospital-charges"
+    ], 
+    "files": ["https://springhillmedicalcenter.com/sites/default/files/2021-06/630955692_Springhill_Medical_Center_Standard_Charges_02172021.xml"]
 }, {
     "originalUrl": "http://stelizabethseast.com/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://stmaryscenterma.org/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://stvincent.org/",
-    "bestGuesses": [
-        "https://healthcare.ascension.org/price-transparency"
-    ]
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://summitoakshospital.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://sunrisehospital.com/",
-    "bestGuesses": [
-        "https://sunrisehospital.com/patient-financial/insured-patient",
-        "https://sunrisehospital.com/#ehc-acr3",
-        "https://sunrisehospital.com/patient-financial/about",
-        "https://sunrisehospital.com/patient-financial/insurance-decision",
-        "tel:customer-service~Sunrise Children's Hospital~(800) 307-7595pricing-estimate~Sunrise Children's Hospital~(888) 253-1108",
-        "https://sunrisehospital.com/patient-financial/about#collapse1",
-        "tel:customer-service~Sunrise Children",
-        "https://sunrisehospital.com/patient-financial/about#collapse7",
-        "https://sunrisehospital.com/about/legal/pricing-transparency-cms-required-file-of-standard-charges.dot"
-    ]
-}, {
-    "originalUrl": "http://swedishhospital.com/",
-    "bestGuesses": [
-        "http://healthonecares.com/patients-visitors/colorado-pricing-transparency.dot",
-        "https://healthonecares.com/patient-financial/insured-patient",
-        "https://healthonecares.com/locations/swedish/#ehc-acr4",
-        "https://healthonecares.com/patients-visitors/colorado-pricing-transparency.dot",
-        "https://healthonecares.com/patient-financial/about",
-        "https://healthonecares.com/patient-financial/insurance-decision",
-        "https://healthonecares.com/locations/swedish/patients-visitors/patient-information/price-transparency.dot",
-        ""
-    ]
-}, {
-    "originalUrl": "http://teenhealthclinic.org",
-    "bestGuesses": []
+    "foundAt": ["https://summitoakshospital.com/standard-services/"],
+    "files": ["https://uhsfilecdn.eskycity.net/bh/201021210-summit-oaks-standard_charges.csv"]
 }, {
     "originalUrl": "http://texasorthopedic.com/",
-    "bestGuesses": [
-        "https://texasorthopedic.com/patient-financial/insured-patient",
-        "https://texasorthopedic.com/#ehc-acr1",
-        "https://texasorthopedic.com/patient-financial/about",
-        "https://texasorthopedic.com/patient-financial/insurance-decision",
-        "https://texasorthopedic.com/patient-financial/about#collapse1",
-        "https://texasorthopedic.com/patient-financial/about#collapse7",
+    "foundAt": [
         "https://texasorthopedic.com/about/legal/pricing-transparency-cms-required-file-of-standard-charges.dot"
+    ],
+    "files": [
+        "https://core.secure.ehc.com/src/util/detail-price-list/76-0418502_texas-orthopedic-hospital_standardcharges.csv"
     ]
 }, {
     "originalUrl": "http://thehopeclinic.org/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://thesteadmanclinic.com/Index.asp",
-    "bestGuesses": []
+    "foundAt": ["https://www.thesteadmanclinic.com/patients/price-transparency"],
+    "files": []
 }, {
     "originalUrl": "http://tuh.templehealth.org/content/default.htm",
-    "bestGuesses": [
-        "https://www.templehealth.org/locations/temple-university-hospital/patients-visitors/billing-insurance/pricing-info"
-    ]
+    "foundAt": [
+        "https://www.templehealth.org/pricing-disclaimer"
+    ],
+    "files": ["https://www.templehealth.org/sites/default/files/file/2021-01/tuh-machine-readable-v1.1.xlsx"]
 }, {
     "originalUrl": "http://tulanehealthcare.com/",
-    "bestGuesses": [
-        "https://tulanehealthcare.com/patients-and-visitors/pay-your-bill.dot",
-        "https://tulanehealthcare.com/patient-financial/about",
-        "https://tulanehealthcare.com/patient-financial/insurance-decision",
-        "https://tulanehealthcare.com/patient-financial/about#collapse1",
-        "https://tulanehealthcare.com/patient-financial/about#collapse7",
+    "foundAt": [
         "https://tulanehealthcare.com/about/legal/pricing-transparency-cms-required-file-of-standard-charges.dot"
-    ]
+    ], 
+    "files": []
 }, {
     "originalUrl": "http://tulanelakeside.com/",
-    "bestGuesses": [
-        "https://tulanelakeside.com/patients-and-visitors/pay-your-bill.dot",
-        "https://tulanelakeside.com/patient-financial/about",
-        "https://tulanelakeside.com/patient-financial/insurance-decision",
-        "https://tulanelakeside.com/patient-financial/about#collapse1",
-        "https://tulanelakeside.com/patient-financial/about#collapse7",
-        "https://tulanelakeside.com/about/legal/pricing-transparency-cms-required-file-of-standard-charges.dot"
-    ]
+    "foundAt": [
+        "https://tulanehealthcare.com/about/legal/pricing-transparency-cms-required-file-of-standard-charges.dot"
+    ], 
+    "files": ["https://core.secure.ehc.com/src/util/detail-price-list/621596506_tulane-university-hospital-clinic_standardcharges.csv"]
 }, {
     "originalUrl": "http://uamshealth.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://ubhc.rutgers.edu/",
-    "bestGuesses": []
+    "foundAt": ["https://uamshealth.com/patients-and-guests/patient-support/billing/price-transparency/"],
+    "files": [
+        "https://uamshealth.com/patients-and-guests/wp-content/uploads/sites/6/2022/01/Price-Transparancy-UAMS-2022.xlsx",
+        "https://uamshealth.com/patients-and-guests/wp-content/uploads/sites/6/2020/04/2020-UAMS-Price-Transparency-COVID-19.xlsx"
+    ]
 }, {
     "originalUrl": "http://ukhealthcare.uky.edu/home/",
-    "bestGuesses": []
+    "foundAt": ["https://ukhealthcare.uky.edu/uk-healthcare-rates"],
+    "files": ["https://ukhealthcare.uky.edu/sites/default/files/uk-healthcare-rates-1-4-2022.xls"]
 }, {
     "originalUrl": "http://uksac.org/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://unitedgeneral.org/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://uscnorriscancer.usc.edu/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://uuhsc.utah.edu/moraneyecenter",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://volresearch.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://washington.providence.org/hospitals/sacred-heart-medical-center-and-childrens-hospital/",
-    "bestGuesses": [
-        "https://www.providence.org/obp/get-a-price-estimate"
-    ]
-}, {
-    "originalUrl": "http://washington.providence.org/hospitals/st-peter/",
-    "bestGuesses": [
-        "https://www.providence.org/obp/wa/pricing-transparency",
-        "https://www.providence.org/obp/get-a-price-estimate"
-    ]
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://wexnermedical.osu.edu/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://whcenter.org/body.cfm?id=24",
-    "bestGuesses": []
+    "foundAt": [
+        "https://wexnermedical.osu.edu/patient-and-visitor-guide/patient-pricing-lists"
+    ],
+    "files": [
+        "https://wexnermedical.osu.edu/-/media/files/wexnermedical/patient-care/patient-and-visitor-guide/patient-pricing-lists/2022/31-1340739_the-ohio-state-university-hospitals_standardcharges.csv?la=en&hash=01A55A98F1B428A8064AB06C4379658A08F89620",
+        "https://wexnermedical.osu.edu/-/media/files/wexnermedical/patient-care/patient-and-visitor-guide/patient-pricing-lists/2022/31-1322863_the-james-cancer-hospital_standardcharges.csv?la=en&hash=9C8149895EC361D1DB206CEA2DCD398CFD13F635"
+    ]
 }, {
     "originalUrl": "http://winn.amedd.army.mil/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://winshipcancer.emory.edu",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.1888study411.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.59mdw.af.mil/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.59mdw.af.mil/News/ArticleDisplay/tabid/2553/Article/407547/359th-medical-operations-squadron-welcomes-new-commander.aspx",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.ArrowheadHospital.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.ParadiseValleyHospital.com/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.UBHDenton.com",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.acadiahospital.org/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.acrmc.com/",
-    "bestGuesses": []
+    "foundAt": ["https://acrmc.com/patient-financial-services/"],
+    "files": []
 }, {
     "originalUrl": "http://www.adventisthealthcastle.org",
-    "bestGuesses": []
+    "foundAt": ["https://www.adventisthealth.org/patient-resources/financial-services/healthcare-costs-and-charges/cost-estimator-tool/"],
+    "files": [
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbAHBBAKERSFIELDCA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbAHCLCLEARLAKECA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbDRMCDELANOCA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbGAMCGLENDALECA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbHCMCHANFORDCA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbAHHMWILLITSCA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbAHLMLODICA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbMCDHFORTBRAGGCA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbAHRREEDLEYCA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbRMHMARYSVILLECA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbAHSVSIMIVALLEYCA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbAHSSONORACA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbAHSHSAINTHELENACA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbTHTEHACHAPICA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbAHTTULARECA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbUkiahValleyCA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbAHSHSAINTHELENACA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbAHWMLOSANGELESCA&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbAHCKAILUAHI&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbAMCPORTLANDOR&type=CDMWithoutLabel",
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbAHTTILLAMOOKOR&type=CDMWithoutLabel"
+    ]
 }, {
     "originalUrl": "http://www.advocatechildrenshospital.com/ach/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.advocatehealth.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.affinityhealth.org/locations/Mercy-Medical-Center-Oshkosh.htm",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.affinityhealth.org/locations/St-Elizabeth-Hospital-Appleton.htm",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.ahbakersfield.org/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.alamedahospital.org/",
-    "bestGuesses": [
-        "https://sedo.com/search/details/?partnerid=14456&language=us&domain=alamedaahs.org&origin=parking&utm_medium=Parking&utm_campaign=template&utm_source=3097",
-        "https://sedo.com/us/what-we-offer/price-list/",
-        "https://sedo.com/us/sell-domains/domain-trade/"
-    ]
-}, {
-    "originalUrl": "http://www.alliancehealthdeaconess.com/alliancehealth-deaconess/home.aspx",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.anadolusaglik.org/en",
-    "bestGuesses": [
-        "https://www.anadolumedicalcenter.com/en/price-request"
-    ]
-}, {
-    "originalUrl": "http://www.aoec.org/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.archildrens.org/",
-    "bestGuesses": []
+    "foundAt": ["https://www.archildrens.org/patients-and-visitors/billing-and-insurance/financial-assistance?&accordion=accsection-8530F90A3AF744709536C29A60C9D7F5"],
+    "files": [
+        "https://archildrens.azureedge.net/-/media/Files/patients-and-visitors/billing/hospital-pricing-ach.xlsx?rev=4e96f64898514c32b84b5a8cac838d33&hash=52A4ABB84F1D25C98D4BC7B616F63EC1",
+        "https://archildrens.azureedge.net/-/media/Files/patients-and-visitors/billing/hospital-pricing-acnw.xlsx?rev=9c08f8c391044e69988beb54e995a0e4&hash=09C15A2D3D37E62A5550D370BFE36783",
+        "https://archildrens.azureedge.net/-/media/Files/patients-and-visitors/billing/hospital-pricing-pine-bluff.xlsx?rev=b382b24988b34db399cfc7df3ff7fcf2&hash=C2FA7A2DE51613D4F75405559A7D796D"
+    ]
 }, {
     "originalUrl": "http://www.arck.org/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.arlingtonfreeclinic.org",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.armc.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.asante.org/rrmc/",
-    "bestGuesses": []
+    "foundAt": ["https://www.conehealth.com/patients-visitors/patient-financial-services/patient-estimates--charges/"],
+    "files": [
+        "https://www.conehealth.com/581588823_The-Moses-H-Cone-Memorial-Hospital_standardcharges.csv?app=no-geo#BannerWrap",
+        "https://www.conehealth.com/581588823_Cone-Health-Wesley-Long-Hospital_standardcharges.csv?app=no-geo#BannerWrap",
+        "https://www.conehealth.com/581588823_Cone-Health-Annie-Penn-Hospital_standardcharges.csv?app=no-geo#BannerWrap",
+        "https://www.conehealth.com/581588823_Cone-Health-Behavioral-Health-Hospital_standardcharges.csv?app=no-geo#BannerWrap",
+        "https://www.conehealth.com/560529994_Alamance-Regional-Medical-Center-Inc_standardcharges.csv?app=no-geo#BannerWrap"
+    ]
 }, {
     "originalUrl": "http://www.aspirus.org/Aspirus-Ironwood-Hospital/Our-Locations/Aspirus-Grand-View-Hospital-452.aspx",
-    "bestGuesses": []
+    "foundAt": ["https://www.aspirus.org/price-estimate"],
+    "files": [
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390806250_aspirus-divinesavior-hospital_standardcharges.JSON",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390985690_aspirus-eagleriver-hospital_standardcharges.JSON",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390806429_aspirus-langlade-hospital_standardcharges.json",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390964813_aspirus-medford-hospital_standardcharges.json",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390808503_aspirus-merrill-hospital_standardcharges.JSON",
+        "https://www.aspirus.org/Uploads/Public/Documents/StandardCharges/2022/391138241_aspirus-plover-hospital_standardcharges.json",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/391390638_aspirus-rhinelander-hospital_standardcharges.JSON",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390868982_aspirus-riverview-hospital_standardcharges.json",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390807065_aspirus-stanley-hospital_standardcharges.JSON",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390808443_aspirus-stevenspoint-hospital_standardcharges.JSON",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/391390638_aspirus-tomahawk-hospital_standardcharges.JSON",
+        "https://www.aspirus.org/Uploads/Public/Documents/StandardCharges/2022/391138241_aspirus-wausau-hospital_standardcharges.json",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/390873606_aspirus-howardyoung-medical-center_standardcharges.JSON",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/383236977_aspirus-ironriver-hospital_standardcharges.json",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/382908586_aspirus-ironwood-hospital_standardcharges.json",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/381443361_aspirus-keweenaw-hospital_standardcharges.json",
+        "https://www.aspirus.org/Uploads/Public/Documents/Bill/StandardCharges/260806477_aspirus-ontonagon-hospital_standardcharges.json"
+    ]
 }, {
     "originalUrl": "http://www.athenahealthcare.com/ri-og.htm",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.atholhospital.org/",
-    "bestGuesses": [
-        "https://www.heywood.org/download.cfm?downloadfile=4250EDEB-D2F1-FB23-03AB92587EF5687E",
+    "foundAt": [
+        "https://www.heywood.org/about-us/community-benefit/patient-financial-services"
+    ], 
+    "files": [
         "https://www.heywood.org/download.cfm?downloadfile=1F2BA2DF-95E8-1DFD-E1FA51BD69672F45"
     ]
 }, {
     "originalUrl": "http://www.atlantaallergy.com/",
-    "bestGuesses": [
-        "https://www.atlantaallergy.com/providers/view/25-gloria-c-price"
-    ]
-}, {
-    "originalUrl": "http://www.auburntownandcountryvet.com/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.augustahealth.com",
-    "bestGuesses": [
+    "foundAt": [
         "https://www.augustahealth.com/service/business-office/hospital-pricing-information/"
-    ]
+    ],
+    "files": ["https://cleverleypteusstatic.blob.core.windows.net/readable/490018_Augusta-Health_StandardCharges.json"]
 }, {
     "originalUrl": "http://www.augustahealth.org/",
-    "bestGuesses": [
-        "https://www.augustahealth.org/billing/patient-pricing.php",
-        "https://estimator.pmmconline.com/aumc/?keyword=nursing&campaign_url=https%3A%2F%2Fwww.augustahealth.org%2Fpatient-family-information%2Fpatient-pricing&ga_cid=2086189780.1584467041&keyword=nursing",
-        "https://augustauniversity.box.com/v/auhs-price-sheet",
-        "https://estimator.pmmconline.com/aumc/",
+    "foundAt": [
+        "https://www.augustahealth.org/billing/patient-pricing.php"
+    ],
+    "files": [
+        "https://augustauniversity.app.box.com/v/auhs-price-sheet",
         "https://augustauniversity.box.com/v/rws-price-sheet"
     ]
 }, {
     "originalUrl": "http://www.auroramed.com/",
-    "bestGuesses": [
-        "http://healthonecares.com/patients-visitors/colorado-pricing-transparency.dot",
-        "https://healthonecares.com/locations/aurora/patients-visitors/patient-information/price-transparency.dot",
-        "javascript:window.print()",
-        "https://healthonecares.com/patients-visitors/colorado-pricing-transparency.dot"
-    ]
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.auxiliomutuo.com/en",
-    "bestGuesses": []
+    "foundAt": ["https://www.auxiliomutuo.com/facturacion-cobros"],
+    "files": ["http://www.auxiliomutuo.com/pdf/300-CMS-SPECIFICIFIED-SHOPPABLE-SERVICES-SIN-CARGOS-PRIVADOS.xlsx"]
 }, {
     "originalUrl": "http://www.avrmc.org/",
-    "bestGuesses": [
-        "https://baton.claraprice.net/arkansas-valley"
-    ]
+    "foundAt": [
+        "https://secure.claraprice.net/price-transparency/arkansas-valley?sub=For%20Patients"
+    ],
+    "files": ["https://secure.claraprice.net/price-transparency/arkansas-valley/machine-readable/K5uLUgBhLw/84-1465990_arkansas-valley_standardcharges.json"]
 }, {
     "originalUrl": "http://www.bacharach.org/",
-    "bestGuesses": [
-        "https://shop.bacharach.org/"
+    "foundAt": [
+        "https://shop.bacharach.org/pt-machinereadable.html"
+    ],
+    "files": [
+        "https://assets.changehealthcare.com/Shop/PROD/static/BacharachInstitueforRehab/21-0634964_BacharachInstitueforRehab_standardcharges.csv.zip"
     ]
 }, {
-    "originalUrl": "http://www.bambergcountyhospital.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.baptisthospital.com",
-    "bestGuesses": []
-}, {
     "originalUrl": "http://www.baptistonline.org/facilities/jonesboro_nea/",
-    "bestGuesses": []
+    "foundAt": ["https://www.baptistonline.org/estimate-my-costs"],
+    "files": [
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/AR/82-3844150_BMH-Crittenden_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/AR/26-1214372_NEA-Baptist_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/MS/47-3684354_MBMC-Attala_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/MS/64-0663760_BMH-Booneville_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/MS/81-3257997_BMH-Calhoun_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/MS/64-0682111_BMH-DeSoto_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/MS/45-2896080_MBMC-Leake_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/MS/62-1519754_BMH-Golden-Triangle_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/MS/64-0881013_MBMC-Jackson_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/MS/64-0772726_BMH-North-Mississipp_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/MS/63-0997281_BMH-Union-County_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/MS/64-0844470_MBMC-Yazoo_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/TN/62-1166050_BMH-Carroll-County_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/TN/62-0123940_BMH-Women_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/TN/62-0123940_BMH-Collierville_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/TN/62-0123940_BMH-Memphis_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/TN/62-1113167_BMH-Tipton_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/TN/62-1138045_BMH-Union-City_STANDARDCHARGES.zip",
+        "https://sites.bmhcc.org/-/media/Pricing-Documents/TN/62-0123940_BMH-Women_STANDARDCHARGES.zip",
+        "https://www.baptistonline.org/-/media/58-1645396_BMH_Restorative_Care_STANDARDCHARGES.txt?la=en"
+    ]
 }, {
     "originalUrl": "http://www.barnabashealth.org/Community-Medical-Center.aspx",
-    "bestGuesses": [
-        "https://www.rwjbh.org/billing/"
+    "foundAt": [
+        "https://www.rwjbh.org/community-medical-center/billing/charges/"
+    ],
+    "files": [
+        "https://www.rwjbh.org/documents/billing/shoppable/CSV/223452306_community-medical-center_standardcharge.csv"
     ]
 }, {
     "originalUrl": "http://www.barnabashealth.org/Jersey-City-Medical-Center.aspx",
-    "bestGuesses": [
-        "https://www.rwjbh.org/billing/"
-    ]
+    "foundAt": [
+        "https://www.rwjbh.org/jersey-city-medical-center/billing/charges/"
+    ],
+    "files": ["https://www.rwjbh.org/documents/billing/shoppable/csv/222783298_jersey-city-medical-center_standardcharge.csv"]
 }, {
     "originalUrl": "http://www.barnabashealth.org/Monmouth-Medical-Center-Southern-Campus.aspx",
-    "bestGuesses": [
-        "https://www.rwjbh.org/billing/"
+    "foundAt": [
+        "https://www.rwjbh.org/monmouth-medical-center-southern-campus/billing/charges/"
+    ],
+    "files": [
+        "https://www.rwjbh.org/documents/billing/shoppable/csv/223452412_monmouth-medical-center-southern-campus_standardcharge.csv"
     ]
 }, {
     "originalUrl": "http://www.barnabashealth.org/Monmouth-Medical-Center.aspx",
-    "bestGuesses": [
-        "https://www.rwjbh.org/billing/"
+    "foundAt": [
+        "https://www.rwjbh.org/monmouth-medical-center/billing/charges/"
+    ],
+    "files": [
+        "https://www.rwjbh.org/documents/billing/shoppable/csv/223452412_monmouth-medical-center_standardcharge.csv"
     ]
 }, {
     "originalUrl": "http://www.barnabashealth.org/Saint-Barnabas-Medical-Center.aspx",
-    "bestGuesses": [
-        "https://www.rwjbh.org/billing/"
+    "foundAt": [
+        "https://www.rwjbh.org/saint-barnabas-medical-center/billing/charges/"
+    ],
+    "files": [
+        "https://www.rwjbh.org/documents/billing/shoppable/csv/222977312_cooperman-barnabas-medical-center_standardcharge.csv"
     ]
 }, {
     "originalUrl": "http://www.barnesjewishwestcounty.org/",
-    "bestGuesses": []
+    "foundAt": ["https://www.bjc.org/For-Patients-Billing-Visitors/Financial-Assistance-Resources/BJC-Hospital-Standard-Charges"],
+    "files": []
 }, {
     "originalUrl": "http://www.bassett.org/medical/locations/regional-health-centers/cooperstown/",
-    "bestGuesses": []
+    "foundAt": [
+        "https://www.bassett.org/patients-visitors/billing-insurance/hospital-pricing"
+    ],
+    "files": [
+        "https://www.bassett.org/sites/default/files/2021-12/135596796_MARY-IMOGENE-BASSETT-HOSPITAL_STANDARDCHARGES_Updated.xlsx",
+        "https://www.bassett.org/sites/default/files/2021-12/150533578_LITTLE-FALLS-HOSPITAL_STANDARDCHARGES.xlsx",
+        "https://www.bassett.org/sites/default/files/2021-12/150539039_AURELIA-OSBORN-FOX-MEMORIAL-HOSPITAL_STANDARDCHARGES.xlsx",
+        "https://www.bassett.org/sites/default/files/2021-12/141772971_COBLESKILL-REGIONAL-HOSPITAL_STANDARDCHARGES.xlsx",
+        "https://www.bassett.org/sites/default/files/2021-12/161540394_OCONNOR-HOSPITAL_STANDARDCHARGES.xlsx",
+        "https://www.bassett.org/sites/default/files/2021-12/150539039_AURELIA-OSBORN-FOX-MEMORIAL-HOSPITAL_STANDARDCHARGES.xlsx"
+    ]
 }, {
     "originalUrl": "http://www.bayareahospital.org/",
-    "bestGuesses": []
+    "foundAt": ["https://bayareahospital.org/patient-resources/"],
+    "files": [
+        "https://bayareahospital.org/wp-content/uploads/2022/01/930593249_BAY-AREA-HOSPITAL-DISTRICT_STANDARD-CHARGES.csv",
+        "https://bayareahospital.org/wp-content/uploads/2022/01/930593249_BAY-AREA-HOSPITAL-DISTRICT_MEDIAN-INPATIENT-CHARGES-BY-DRG-2022.csv"
+    ]
 }, {
     "originalUrl": "http://www.baycrest.org/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.bayonnemedicalcenter.org",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.bdfmedical.org",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.beaconclinical.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.beaumont.edu/childrens/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.beaumont.edu/patients-visitors/locations-maps-and-directions/beaumont-royal-oak-campus/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.beaumont.edu/patients-visitors/locations-maps-and-directions/beaumont-troy-campus/",
-    "bestGuesses": []
+    "foundAt": ["http://www.bayonnemedicalcenter.org/"],
+    "files": [
+        "https://carepointhealth.org/wp-content/uploads/2022/01/261442063_BAYONNEMEDICALCENTER_STANDARD_CHARGES_2022.csv",
+        "https://carepointhealth.org/wp-content/uploads/2022/01/383870608_CHRISTHOSPITAL_STANDARD_CHARGES_2022.csv",
+        "https://carepointhealth.org/wp-content/uploads/2022/01/452147328_HOBOKENUNIVERSITYMEDICALCENTER_STANDARD_CHARGES_2022.csv"
+    ]
 }, {
     "originalUrl": "http://www.beaumonthospitals.com/",
-    "bestGuesses": [
-        "https://www.beaumont.org/patients-families/billing/pricing"
+    "foundAt": [
+        "https://www.beaumont.org/patients-families/billing/pricing/2022-beaumont-health-price-transparency-information"
+    ],
+    "files": [
+        "https://www.beaumont.org/patients-families/billing/pricing/2022-beaumont-health-price-transparency-information",
+        "https://www.beaumont.org/docs/default-source/default-document-library/cdm-documents/2022/physician-and-other-health-care-professional-fees/381405141_beaumont-hospital-dearborn_professional-standardcharges.csv?sfvrsn=3427dfb_2&download=true",
+        "https://www.beaumont.org/docs/default-source/default-document-library/cdm-documents/2022/hospital-charges/381426919_beaumont-hospital-farmington-hills_hospital-standardcharges.csv?sfvrsn=c0427dfb_2&download=true",
+        "https://www.beaumont.org/docs/default-source/default-document-library/cdm-documents/2022/physician-and-other-health-care-professional-fees/381426919_beaumont-hospital-farmington_hills_professional-standardcharges.csv?sfvrsn=1b427dfb_2&download=true",
+        "https://www.beaumont.org/docs/default-source/default-document-library/cdm-documents/2022/hospital-charges/381459362_beaumont-hospital-grosse-pointe_hospital-standardcharges.csv?sfvrsn=f8427dfb_2&download=true",
+        "https://www.beaumont.org/docs/default-source/default-document-library/cdm-documents/2022/physician-and-other-health-care-professional-fees/381459362_beaumont-hospital-grosse_pointe_professional-standardcharges.csv?sfvrsn=f427dfb_2&download=true",
+        "https://www.beaumont.org/docs/default-source/default-document-library/cdm-documents/2022/hospital-charges/381459362_beaumont-hospital-royal-oak_hospital-standardcharges.csv?sfvrsn=f0427dfb_2&download=true",
+        "https://www.beaumont.org/docs/default-source/default-document-library/cdm-documents/2022/physician-and-other-health-care-professional-fees/381459362_beaumont-hospital-royal_oak_professional-standardcharges.csv?sfvrsn=7427dfb_2&download=true",
+        "https://www.beaumont.org/docs/default-source/default-document-library/cdm-documents/2022/hospital-charges/381405141_beaumont-hospital-taylor_hospital-standardcharges.csv?sfvrsn=f4427dfb_2&download=true",
+        "https://www.beaumont.org/docs/default-source/default-document-library/cdm-documents/2022/physician-and-other-health-care-professional-fees/381405141_beaumont-hospital-taylor_professional-standardcharges.csv?sfvrsn=37427dfb_2&download=true",
+        "https://www.beaumont.org/docs/default-source/default-document-library/cdm-documents/2022/hospital-charges/381405141_beaumont-hospital-trenton_hospital-standardcharges.csv?sfvrsn=fc427dfb_2&download=true",
+        "https://www.beaumont.org/docs/default-source/default-document-library/cdm-documents/2022/physician-and-other-health-care-professional-fees/381405141_beaumont-hospital-trenton_professional-standardcharges.csv?sfvrsn=b427dfb_2&download=true",
+        "https://www.beaumont.org/docs/default-source/default-document-library/cdm-documents/2022/hospital-charges/381459362_beaumont-hospital-troy_hospital-standardcharges.csv?sfvrsn=c8427dfb_2&download=true",
+        "https://www.beaumont.org/docs/default-source/default-document-library/cdm-documents/2022/physician-and-other-health-care-professional-fees/381459362_beaumont-hospital-troy_professional-standardcharges.csv?sfvrsn=33427dfb_2&download=true",
+        "https://www.beaumont.org/docs/default-source/default-document-library/cdm-documents/2022/hospital-charges/381405141_beaumont-hospital-wayne_hospital-standardcharges.csv?sfvrsn=e4427dfb_2&download=true",
+        "https://www.beaumont.org/docs/default-source/default-document-library/cdm-documents/2022/physician-and-other-health-care-professional-fees/381405141_beaumont-hospital-wayne_professional-standardcharges.csv?sfvrsn=3f427dfb_2&download=true"
     ]
 }, {
     "originalUrl": "http://www.beebehealthcare.org/",
-    "bestGuesses": []
+    "foundAt": ["https://www.cdmpricing.com/bdfcf79238cced1fa24bc49318040614/standard-charges"],
+    "files": []
 }, {
     "originalUrl": "http://www.bergenregional.com/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.bethesdaweb.com/about-us",
-    "bestGuesses": [
-        "https://pricing.floridahealthfinder.gov/#!",
-        "mailto:CentralPricing@BaptistHealth.net?subject=RE%3A%20Hospital%20%26%20Outpatient%20Self-Pay%20Rates"
-    ]
-}, {
-    "originalUrl": "http://www.bethisraelny.org/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.bidhplymouth.com/",
-    "bestGuesses": [
-        "https://www.bidhplymouth.com/hospital-charges"
-    ]
+    "foundAt": [
+        "https://www.cdmpricing.com/2d68fe4eb00b5aefaecfcde04da6a382/standard-charges"
+    ],
+    "files": []
 }, {
     "originalUrl": "http://www.binghammemorial.org/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.bishopveterinaryhospital.com/",
-    "bestGuesses": []
+    "foundAt": [
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Bingham_V2.aspx#"
+    ],
+    "files": [
+        "https://apps.para-hcfs.com/PTT/FinalLinks/Reports.aspx?dbName=dbBMHECBlackfootID&type=CDMWithoutLabel"
+    ]
 }, {
     "originalUrl": "http://www.bloomingtonmeadows.com",
-    "bestGuesses": []
+    "foundAt": [
+        "https://www.bloomingtonmeadows.com/standard-services/"
+    ],
+    "files": [
+        "https://uhsfilecdn.eskycity.net/bh/351858510-bloomington-meadows-standard_charges.csv"
+    ]
 }, {
     "originalUrl": "http://www.bluemountainhospital.org/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.bmhcc.org/facilities/memphis/",
-    "bestGuesses": []
+    "foundAt": ["https://bluemountainhospital.org/patient-resources/"],
+    "files": []
 }, {
     "originalUrl": "http://www.bmhvt.org/",
-    "bestGuesses": []
+    "foundAt": ["https://www.bmhvt.org/patients-visitors/patient-information/pfs/#charge"],
+    "files": ["https://www.bmhvt.org/wp-content/uploads/03-0107300_Brattleboro-Memorial-Hospital_standardcharges.csv"]
 }, {
     "originalUrl": "http://www.bmsch.org/",
-    "bestGuesses": [
-        "https://www.rwjbh.org/billing/"
+    "foundAt": [
+        "https://www.rwjbh.org/treatment-care/mental-health-and-behavioral-health/billing/charges/"
+    ],
+    "files": [
+        "https://www.rwjbh.org/documents/billing/charge%20master/Behavioral-Health-Network.xlsx"
     ]
 }, {
     "originalUrl": "http://www.bondclinic.com/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.borland-groover.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.botsford.org/home.cfm",
-    "bestGuesses": [
-        "https://www.beaumont.org/patients-families/billing/pricing"
-    ]
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.bowencenter.org",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.bradleyhospital.org/",
-    "bestGuesses": [
-        "https://www.lifespan.org/patients-visitors/insurance-billing-and-financial-assistance/cost-care-and-price-transparency",
-        "https://www.lifespan.org/locations/bradley-hospital/parents-and-caregivers/insurance-and-billing/cost-care"
-    ]
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.brighamandwomensfaulkner.org/default.aspx#.V3tN99J97IV",
-    "bestGuesses": []
+    "foundAt": ["https://www.brighamandwomensfaulkner.org/patients-and-families/cms-required-hospital-charge-data"],
+    "files": [
+        "https://healthcare.partners.org/pricetransparency/042768256_Brigham-and-Womens-Faulkner-Hospital_StandardCharges.zip"
+    ]
 }, {
     "originalUrl": "http://www.bristolhospital.org/",
-    "bestGuesses": [
-        "https://www.bristolhealth.org/Why-Bristol-Health/Pricing-and-Financial-Assistance/Pricing-Transparency",
-        "https://search.hospitalpriceindex.com/hpi2/shoppables/bristolhospital/7807or/all",
-        "https://bristolhealth.patientsimple.com/guest/#/index"
-    ]
+    "foundAt": [
+        "https://search.hospitalpriceindex.com/hpi2/hospital/bristolhospital/7807or"
+    ],
+    "files": []
 }, {
     "originalUrl": "http://www.brooksrehab.org/research",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.brotmanmedicalcenter.com/",
-    "bestGuesses": []
+    "foundAt": ["https://brooksrehab.org/wp-content/uploads/2019/12/Summary-Financial-Assistance-and-Patient-Billing-Practices-1-6-2022.pdf"],
+    "files": ["https://brooksrehab.org/wp-content/uploads/2019/12/59-3284221_Brooks-Rehabilitation-Hospital_standardcharges.csv"]
 }, {
     "originalUrl": "http://www.brrh.com/",
-    "bestGuesses": [
-        "https://brrh.patientsimple.com/guest/#/estimates/patientestimate#1"
-    ]
-}, {
-    "originalUrl": "http://www.btmh.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.cabrininy.org/",
-    "bestGuesses": []
+    "foundAt": [
+        "https://www.brrh.com/Patients-Visitors/Transparency-in-Healthcare.aspx"
+    ],
+    "files": []
 }, {
     "originalUrl": "http://www.calmedhead.com/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.calvaryhospital.org/site/pp.asp?c=ktJUJ9MPIsE&b=3226167",
-    "bestGuesses": []
+    "foundAt": ["https://www.calvaryhospital.org/patients-families/patient-financial-information/"],
+    "files": ["https://www.calvaryhospital.org/wp-content/uploads/2021/01/131740274_CalvaryHospital_standardcharges.csv-1.xlsx"]
 }, {
     "originalUrl": "http://www.cameronmch.com",
-    "bestGuesses": [
-        "https://www.cameronmch.com/resources/billing-pricing/",
-        "https://hospitalpricelists.org/cameron-memorial-hospital",
-        "https://ezcost.info/cameron-memorial-hospital"
-    ]
+    "foundAt": ["https://hospitalpricelists.org/cameron-memorial-hospital"],
+    "files": ["https://drive.google.com/file/d/1klcS8jkZ8QWRzJa0PtBZbybqd2if24fl/view?usp=sharing"]
 }, {
     "originalUrl": "http://www.campbellclinic.com/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.canbyclinic.org",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.capecodhealth.org/hospitals-facilities/cape-cod-hospital/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.capecodhealth.org/locations/falmouth-hospital/",
-    "bestGuesses": []
+    "foundAt": ["https://www.capecodhealth.org/patients-visitors/paying-for-care/understanding-pricing/price-transparency/"],
+    "files": []
 }, {
     "originalUrl": "http://www.caperegional.com/",
-    "bestGuesses": [
+    "foundAt": [
         "https://www.caperegional.com/finance"
+    ],
+    "files": [
+        "https://caperegional.pt.panaceainc.com/MRFDownload/caperegional/caperegional"
     ]
 }, {
     "originalUrl": "http://www.carene.org",
-    "bestGuesses": [
-        "https://www.carenewengland.org/price-transparency?hsLang=en",
+    "foundAt": [
         "https://www.carenewengland.org/price-transparency"
+    ],
+    "files": [
+        "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.carenewengland.org%2Fhubfs%2F050258812_Butler%2520Hospital_standardcharges_2022.xlsx%3FhsCtaTracking%3D8c539c61-05c2-4249-9308-d1f9a1660433%257C9b5a76d3-83a5-4a6d-b131-12e8a06cea82&wdOrigin=BROWSELINK",
+        "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.carenewengland.org%2Fhubfs%2F050258896_Kent%2520County%2520Memorial%2520Hospital_standardcharges_2022.xlsx%3FhsCtaTracking%3Da17577ba-9988-4aa8-80e2-15f58382b446%257C82a582bd-8e20-4bb8-8def-ac28d8a53ef7&wdOrigin=BROWSELINK",
+        "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.carenewengland.org%2Fhubfs%2F050258937_Women%2520and%2520Infants%2520Hospital_standardcharges_2022.xlsx%3FhsCtaTracking%3Df26648df-9d0e-4342-98bc-0a4a5852eae5%257C80520327-161b-4d26-a063-a8cc9c808f91&wdOrigin=BROWSELINK"
     ]
 }, {
     "originalUrl": "http://www.carolinaentclinic.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.carolinashealthcare.org/cmc-mercy",
-    "bestGuesses": [
-        "https://cdn.atriumhealth.org/-/media/chs/files/for-patients-visitors/covid-19/coronavirus-covid-19-test-price-cost.pdf?rev=55411cb1ffcb47a4b3d794e843a9d73e"
-    ]
-}, {
-    "originalUrl": "http://www.carolinashealthcare.org/cmc-pineville",
-    "bestGuesses": [
-        "https://cdn.atriumhealth.org/-/media/chs/files/for-patients-visitors/covid-19/coronavirus-covid-19-test-price-cost.pdf?rev=55411cb1ffcb47a4b3d794e843a9d73e"
-    ]
-}, {
-    "originalUrl": "http://www.carolinashealthcare.org/cmc-union",
-    "bestGuesses": [
-        "https://cdn.atriumhealth.org/-/media/chs/files/for-patients-visitors/covid-19/coronavirus-covid-19-test-price-cost.pdf?rev=55411cb1ffcb47a4b3d794e843a9d73e"
-    ]
-}, {
-    "originalUrl": "http://www.carolinashealthcare.org/cmc-university",
-    "bestGuesses": [
-        "https://cdn.atriumhealth.org/-/media/chs/files/for-patients-visitors/covid-19/coronavirus-covid-19-test-price-cost.pdf?rev=55411cb1ffcb47a4b3d794e843a9d73e"
-    ]
-}, {
-    "originalUrl": "http://www.carolinashealthcare.org/medical-services/childrens-services/levine-childrens-hospital",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.carrierclinic.org",
-    "bestGuesses": [
-        "https://www.hackensackmeridianhealth.org/en/Pay-Bill/Price-Estimates"
-    ]
-}, {
-    "originalUrl": "http://www.cdaarthritis.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.centerem.org",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.centerforclinicalandcosmeticresearch.com/",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.cha-properties.com",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.chadkids.org/",
-    "bestGuesses": [
-        "https://www.dartmouth-hitchcock.org/sites/default/files/2021-03/price-transparency-patient-FAQs-2020.pdf"
+    "foundAt": [
+        "https://www.dartmouth-hitchcock.org/patients-visitors/charges-services"
+    ],
+    "files": [
+        "https://www.dartmouth-hitchcock.org/sites/default/files/2021-12/02-0222140-mary-hitchcock-memorial%20hospital-standard-charges.csv"
     ]
 }, {
     "originalUrl": "http://www.challiance.org/Main/Home.aspx",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.charlottehungerford.org/",
-    "bestGuesses": [
-        "https://charlottehungerford.org/patients-visitors/billing-insurance/price-transparency/price-transparency",
-        "https://charlottehungerford.org/patients-visitors/billing-insurance/price-transparency",
-        "https://stvincents.org/patients-visitors/patients/billing-insurance/list-of-charges/list-of-charges",
-        "https://charlottehungerford.org/patients-visitors/billing-insurance/provider-based-billing-faq/provider-based-billing-faq"
-    ]
+    "foundAt": ["https://www.challiance.org/patients-visitors/prices"],
+    "files": ["https://drive.google.com/file/d/149WBPSX0nE3QoyyD7udWdx_YBPri1VMn/view?usp=sharing"]
 }, {
     "originalUrl": "http://www.cheshire-med.com/",
-    "bestGuesses": []
+    "foundAt": ["https://www.cheshiremed.org/patients-visitors/charges-for-services"],
+    "files": ["https://www.cheshiremed.org/media/271/download?attachment"]
 }, {
     "originalUrl": "http://www.chestnuthillhealth.com/chestnut-hill-hospital/home.aspx",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.cheyenneregional.org/",
-    "bestGuesses": [
+    "foundAt": [
         "https://www.cheyenneregional.org/billing-and-insurance/estimates-price-transparency/"
-    ]
+    ],
+    "files": []
 }, {
     "originalUrl": "http://www.chfKids.com",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.chihealthstelizabeth.com/",
-    "bestGuesses": [
-        "https://www.chihealth.com/content/chi-health/en/patients-visitors/price-transparency.html"
-    ]
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.childrens.com",
-    "bestGuesses": [
-        "https://mychart.childrens.com/MyChart/GuestEstimates/AcceptDisclaimer?svcArea=y2PJO2Gli8%2BI6X908Ai2rg%3D%3D&isMultiSA=false"
-    ]
-}, {
-    "originalUrl": "http://www.chiltonhealth.org",
-    "bestGuesses": [
-        "https://www.atlantichealth.org/patients-visitors/price-estimates.html"
-    ]
+    "foundAt": [
+        "https://www.childrens.com/patient-families/billing-and-insurance/common-billing-questions"
+    ],
+    "files": []
 }, {
     "originalUrl": "http://www.chla.org/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.chnola.org/",
-    "bestGuesses": []
+    "foundAt": ["https://www.chnola.org/patients-visitors/billing/"],
+    "files": ["https://drive.google.com/file/d/1Xt5wbwgkxBn1Zb3_7LjdMqNB2nQjwnTk/view?usp=sharing"]
 }, {
     "originalUrl": "http://www.choc.org/",
-    "bestGuesses": []
+    "foundAt": ["https://www.choc.org/patients-family/pricing-transparency/"],
+    "files": []
 }, {
     "originalUrl": "http://www.christianacare.org/",
-    "bestGuesses": [
-        "https://billing.christianacare.org/transparency",
-        "https://billing.christianacare.org/transparency/chargemaster",
-        "https://www.medicare.gov/procedure-price-lookup/"
+    "foundAt": [
+        "https://billing.christianacare.org/transparency/chargemaster"
+    ],
+    "files": [
+        "https://billing.christianacare.org/media/4/download?attachment"
     ]
-}, {
-    "originalUrl": "http://www.christushealth.org/about_legacy_call.htm",
-    "bestGuesses": [
-        "https://www.christushealth.org/navigation-context-settings/get-a-price-estimate",
-        "https://www.christushealth.org/patient-resources/pricing-transparency"
-    ]
-}, {
-    "originalUrl": "http://www.chsbuffalo.org/Facilities/Hospitals/SistersofCharityHospital",
-    "bestGuesses": []
 }, {
     "originalUrl": "http://www.chwchospital.org",
-    "bestGuesses": [
+    "foundAt": [
         "https://www.chwchospital.org/pricing-disclosure/"
+    ],
+    "files": [
+        "https://www.chwchospital.org/wp-content/uploads/2022/02/Price-Transparency-2022.pdf"
     ]
 }, {
     "originalUrl": "http://www.cityofhope.org",
-    "bestGuesses": []
+    "foundAt": ["https://www.cityofhope.org/patients/for-patients-and-visitors/helping-you-with-insurance-billing-and-legal-information/our-value-and-pricing/pricing-information"],
+    "files": ["https://www.cityofhope.org/doc/95-3435919_cityofhopecomprehensivecancercenter_standardcharges.json"]
 }, {
     "originalUrl": "http://www.cizikeye.org/",
-    "bestGuesses": []
+    "foundAt": [],
+    "files": []
 }, {
     "originalUrl": "http://www.collegemedicalcenter.com/",
-    "bestGuesses": [
-        "https://www.collegemedicalcenter.com/price-transparency/",
-        "https://shop.collegemedicalcenter.com/"
-    ]
-}, {
-    "originalUrl": "http://www.commonwealthhealth.net/locations/regional-hospital-scranton",
-    "bestGuesses": []
-}, {
-    "originalUrl": "http://www.communityanderson.com",
-    "bestGuesses": []
+    "foundAt": [
+        "https://www.collegemedicalcenter.com/price-transparency/"
+    ],
+    "files": []
 }, {
     "originalUrl": "http://www.concordhospital.org/",
-    "bestGuesses": [
-        "https://www.concordhospital.org/about-us/news-publications/2020/covid-19-information/covid-19-pricing-transparency/",
-        "https://www.concordhospital.org/app/files/public/976/Pricing-Transparency-FAQ.pdf"
+    "foundAt": [
+        "https://pricing.concordhospital.org/pt-machinereadable.html"
+    ],
+    "files": [
+        "https://assets.changehealthcare.com/Shop/PROD/static/ConcordHospital/300001_ConcordHospital_standardcharges.xlsx.zip"
     ]
 }, {
     "originalUrl": "http://www.conehealth.com",
-    "bestGuesses": []
+    "foundAt": ["https://www.conehealth.com/patients-visitors/patient-financial-services/patient-estimates--charges/"],
+    "files": []
 }, {
     "originalUrl": "http://www.conehealth.com/annie-penn-hospital",
     "bestGuesses": []
