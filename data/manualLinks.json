@@ -1398,7 +1398,7 @@
     ]
 }, {
     "originalUrl": "http://www.lakeregional.com/",
-    "bestGuesses": [
+    "foundAt": [
         "https://www.lakeregional.com/patients-and-visitors/patients/billing-and-insurance/hospital-price-information/"
     ],
     "files": ["https://apim.services.craneware.com/api-pricing-transparency/api/public/bc7b2fe7e0a9640a8343636bec9a3691/metadata/cdmFile"]
@@ -2359,7 +2359,7 @@
     ]
 }, {
     "originalUrl": "http://www.vallevistahospital.com",
-    "bestGuesses": [
+    "foundAt": [
         "https://vallevistahospital.com/standard-services/"
     ],
     "files": [
@@ -2793,7 +2793,7 @@
     "files": []
 },  {
     "originalUrl": "https://trinitasrmc.org/",
-    "bestGuesses": [
+    "foundAt": [
         "https://www.rwjbh.org/trinitas-regional-medical-center/patients-visitors/pricing-information/"
     ],
     "files": ["https://www.rwjbh.org/sub/59777/documents/content/223601678_TRINITAS-REGIONAL-MEDICAL-CENTER_standardcharges.1).csv"]
@@ -2848,7 +2848,7 @@
     "files": []
 }, {
     "originalUrl": "https://www.ashememorial.org/",
-    "bestGuesses": [
+    "foundAt": [
         "https://www.ashememorial.org/getpage.php?name=Price_Transparency&sub=Patients%20%26%20Visitors",
         "https://hospitalpricelists.org/ashe-memorial-hospital"
     ],

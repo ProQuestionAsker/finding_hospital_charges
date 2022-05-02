@@ -4,12 +4,15 @@ const { join } = require('path');
 require('dotenv').config()
 
 // https://data.world/ushealthcarepricing/preparing-for-dataset-upload/workspace/query?queryid=185fb2f9-fdea-487c-ba32-2afc2459783b
-const queryToRun = '185fb2f9-fdea-487c-ba32-2afc2459783b'
-const SLICE_START = 600
-const SLICE_END = SLICE_START + 50
+const linksQuery = '185fb2f9-fdea-487c-ba32-2afc2459783b'
+const manualLinksQuery = '4c955d27-9496-47fe-b3bc-d53f5ef52ccb'
+
+const queryToRun = manualLinksQuery
+const SLICE_START = 0
+const SLICE_END = SLICE_START + 10
 const OWNER = 'ushealthcarepricing'
 
-const failLogger = fs.createWriteStream('data/failedToUpload.json', {
+const failLogger = fs.createWriteStream('data/failedToUpload-manual.json', {
     flags: 'a' // append to the file
 })
 
